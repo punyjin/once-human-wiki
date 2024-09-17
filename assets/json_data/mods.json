@@ -1,0 +1,64 @@
+[
+    {
+        "name": {
+            "en": "Burning Wrath",
+            "th": "ความโกรธของไฟ"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Burn",
+            "th": "เผาไหม้"
+        },
+        "stats": {
+            "en": "Triggering Burn has a 25% chance to grant +1 Burn stacks",
+            "th": "การติดไฟมีโอกาส 25% ที่จะเพิ่มสแต็กไฟ +1"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Ravenous Hunter",
+                "th": "นักล่ากระหาย"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Burning_Wrath.png"
+    },
+    {
+        "name": {
+            "en": "Flame Resonance",
+            "th": "การตอบสนองของเปลวไฟ"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Burn",
+            "th": "เผาไหม้"
+        },
+        "stats": {
+            "en": "Max Burn stack +2, Burn duration -20.0%",
+            "th": "สแต็กไฟสูงสุด +2, ระยะเวลาไฟ -20.0%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Flame_Resonance.png"
+    }
+]

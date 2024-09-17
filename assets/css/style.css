@@ -1,0 +1,60 @@
+/* style.css */
+
+/* Navbar link hover effect */
+.navbar-nav .nav-link:hover {
+    color: #00b4d8;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Table row hover effect */
+table tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+/* Custom styles for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4cb24;
+    color: #000;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Custom classes */
+.stats {
+    font-size: 12px;
+}
+
+.location, .gear-type {
+    color: rgb(104, 34, 145);
+    font-style: normal;
+}
+
+.gear-type {
+    text-transform: uppercase;
+}
+
+.mod-type {
+    color: purple;
+    font-style: normal;
+}
+
+/* Image size */
+img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Export JSON</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/addmod.css" rel="stylesheet">
+    <script src="assets/js/onload.js"></script>
+</head>
+<body>
+    <div id="navbar-placeholder"></div><br><br><br>
+    <div class="container mt-4">
+        <h2 class="section-title">Export JSON</h2>
+        <form id="json-form">
+            <div class="mb-3">
+                <label for="name-en" class="form-label">Mod Name (EN):</label>
+                <input type="text" id="name-en" class="form-control" placeholder="Enter mod name in English" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="name-th" class="form-label">Mod Name (TH):</label>
+                <input type="text" id="name-th" class="form-control" placeholder="Enter mod name in Thai" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="gearType" class="form-label">Gear Type:</label>
+                <select id="gearType" class="form-select" required>
+                    <option value="Weapon">Weapon</option>
+                    <option value="Helmet">Helmet</option>
+                    <option value="Mask">Mask</option>
+                    <option value="Top">Top</option>
+                    <option value="Gloves">Gloves</option>
+                    <option value="Bottoms">Bottoms</option>
+                    <option value="Shoes">Shoes</option>
+                    <option value="Gear">Gear</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="modType" class="form-label">Mod Type:</label>
+                <select id="modType" class="form-select" required>
+                    <option value="Burn">Burn</option>
+                    <option value="Frost Vortex">Frost Vortex</option>
+                    <option value="Power Surge">Power Surge</option>
+                    <option value="Unstable Bomber">Unstable Bomber</option>
+                    <option value="Fortress Warfare">Fortress Warfare</option>
+                    <option value="The Bull's Eye">The Bull's Eye</option>
+                    <option value="Fast Gunner">Fast Gunner</option>
+                    <option value="Bounce">Bounce</option>
+                    <option value="Shrapnel">Shrapnel</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="stats-en" class="form-label">Stats (EN):</label>
+                <textarea id="stats-en" class="form-control" placeholder="Enter stats in English" rows="3" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="stats-th" class="form-label">Stats (TH):</label>
+                <textarea id="stats-th" class="form-control" placeholder="Enter stats in Thai" rows="3" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Location:</label>
+                <div id="location" class="row g-2">
+                    <!-- Checkboxes will be added here by JavaScript -->
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="imageUrl" class="form-label">Image URL:</label>
+                <input type="text" id="imageUrl" class="form-control" placeholder="Enter image URL" required>
+            </div>
+
+            <button class="btn btn-success" type="submit">Export</button>
+        </form>
+
+        <h3 class="section-title mt-4">Generated JSON:</h3>
+        <div class="editor-buttons mb-3">
+            <button id="copy-btn" class="btn btn-primary">Copy to Clipboard</button>
+            <button id="download-btn" class="btn btn-primary">Download JSON</button>
+            <button id="clear-btn" class="btn btn-primary">Clear</button>
+        </div>
+        <div class="output-container" id="output">
+            <!-- JSON output will be appended here -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/addmod.js"></script>
+</body>
+</html>

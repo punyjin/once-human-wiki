@@ -1,0 +1,36 @@
+{
+    "en": {
+        "navbar": {
+            "home": "Home",
+            "items": "Items",
+            "about": "About",
+            "contact": "Contact",
+            "language": "Language"
+        },
+        "itemsPage": {
+            "title": "List of Mods",
+            "name": "Name",
+            "gearType": "Gear Type",
+            "modType": "Mod Type",
+            "stats": "Stats",
+            "source": "Source"
+        }
+    },
+    "th": {
+        "navbar": {
+            "home": "หน้าแรก",
+            "items": "ไอเทม",
+            "about": "เกี่ยวกับ",
+            "contact": "ติดต่อ",
+            "language": "ภาษา"
+        },
+        "itemsPage": {
+            "title": "รายชื่อ ม็อด",
+            "name": "ชื่อ",
+            "gearType": "ประเภทอุปกรณ์",
+            "modType": "ประเภทม็อด",
+            "stats": "ค่าสถานะ",
+            "source": "ที่มา"
+        }
+    }
+}

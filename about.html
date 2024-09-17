@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/about.css" rel="stylesheet">
+    <script src="assets/js/onload.js"></script>
+</head>
+<body>
+    <div id="navbar-placeholder"></div><br><br><br>
+    <div class="container">
+        <div class="section" id="about-project">
+            <h2 class="section-title animated-content">เกี่ยวกับโปรเจ็คนี้</h2>
+            <div class="row">
+                <div class="col-md-6 animated-content">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">โปรเจ็คนี้</h5>
+                            <p class="card-text">โปรเจ็คนี้มุ่งเน้นไปที่การพัฒนาเครื่องมือหรือแอปพลิเคชันที่สามารถช่วยในการจัดการหรือปรับปรุงกระบวนการต่างๆ ในชีวิตประจำวันของผู้ใช้...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="inspiration">
+            <h2 class="section-title animated-content">แรงบรรดาลใจ</h2>
+            <div class="row">
+                <div class="col-md-6 animated-content">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Inspiration Image">
+                        <div class="card-body">
+                            <h5 class="card-title">แรงบรรดาลใจ</h5>
+                            <p class="card-text">แรงบรรดาลใจหลักสำหรับโปรเจ็คนี้มาจากความต้องการในการแก้ไขปัญหาที่พบในชีวิตประจำวัน ซึ่งสร้างแรงจูงใจในการพัฒนาและสร้างสรรค์...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="credits">
+            <h2 class="section-title animated-content">จัดทำโดย</h2>
+            <div class="row">
+                <div class="col-md-6 animated-content">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Creator Image">
+                        <div class="card-body">
+                            <h5 class="card-title">ชื่อผู้จัดทำ</h5>
+                            <p class="card-text">ชื่อผู้จัดทำเป็นผู้ที่รับผิดชอบในการสร้างและพัฒนาโปรเจ็คนี้ ซึ่งมีประสบการณ์และทักษะในการทำงานที่เกี่ยวข้อง...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                $('.animated-content').each(function() {
+                    if ($(this).offset().top < ($(window).scrollTop() + $(window).height()) - 100) {
+                        $(this).addClass('visible');
+                    }
+                });
+            }).trigger('scroll');
+        });
+    </script>
+</body>
+</html>

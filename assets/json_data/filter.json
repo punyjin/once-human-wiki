@@ -1,0 +1,44 @@
+{
+    "filters": {
+        "all": {
+            "en": "All",
+            "th": "ทั้งหมด"
+        },
+        "burn": {
+            "en": "Burn",
+            "th": "การเผาไหม้"
+        },
+        "fortex": {
+            "en": "Frost Vortex",
+            "th": "พายุวนแห่งน้ำแข็ง"
+        },
+        "surge": {
+            "en": "Power Surge",
+            "th": "พลังงานสายฟ้า"
+        },
+        "unstableBomber": {
+            "en": "Unstable Bomber",
+            "th": "การระเบิดที่ไม่เสถียร"
+        },
+        "warfare": {
+            "en": "Fortress Warfare",
+            "th": "สงครามป้อมปราการ"
+        },
+        "bullEye": {
+            "en": "The Bull's Eye",
+            "th": "เป้ากระทิง"
+        },
+        "fastgunner": {
+            "en": "Fast Gunner",
+            "th": "พลปืนเร็ว"
+        },
+        "bounce": {
+            "en": "Bounce",
+            "th": "การกระเด้ง"
+        },
+        "shrapnel": {
+            "en": "Shrapnel",
+            "th": "สะเก็ดระเบิด"
+        }
+    }
+}
