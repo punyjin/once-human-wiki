@@ -10,7 +10,7 @@
         },
         "modType": {
             "en": "Burn",
-            "th": "เผาไหม้"
+            "th": "การเผาไหม้"
         },
         "stats": {
             "en": "Triggering Burn has a 25% chance to grant +1 Burn stacks",
@@ -43,11 +43,11 @@
         },
         "modType": {
             "en": "Burn",
-            "th": "เผาไหม้"
+            "th": "การเผาไหม้"
         },
         "stats": {
             "en": "Max Burn stack +2, Burn duration -20.0%",
-            "th": "สแต็กไฟสูงสุด +2, ระยะเวลาไฟ -20.0%"
+            "th": "การทับซ้อนสถานะเผาไหม้สูงสุด +2, ระยะเวลาไฟ -20.0%"
         },
         "location": [
             {
@@ -60,5 +60,46 @@
             }
         ],
         "imageUrl": "assets/imgs/mods/Flame_Resonance.png"
+    },
+    {
+        "name": {
+            "en": "Blaze Blessing",
+            "th": "พรแห่งเปลวเพลิง"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Burn",
+            "th": "การเผาไหม้"
+        },
+        "stats": {
+            "en": "When defeating an enemy affected by Burn, recover 5% HP.",
+            "th": "เมื่อเอาชนะศัตรูที่ได้รับผลกระทบจากการเผาไหม้ จะฟื้นฟู HP 5%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Ravenous Hunter",
+                "th": "นักล่ากระหาย"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Blaze_Blessing.png"
     }
 ]

@@ -39,6 +39,58 @@
         "shrapnel": {
             "en": "Shrapnel",
             "th": "สะเก็ดระเบิด"
+        },
+        "HP": {
+            "en": "HP",
+            "th": "HP"
+        },
+        "critrate": {
+            "en": "Crit Rate",
+            "th": "อัตราคริติคอล"
+        },
+        "critdmg": {
+            "en": "Crit DMG",
+            "th": "ดาเมจคริติคอล"
+        },
+        "statusdmg": {
+            "en": "Status DMG",
+            "th": "ดาเมจสถานะ"
+        },
+        "def": {
+            "en": "Defense",
+            "th": "ป้องกัน"
+        },
+        "firerate": {
+            "en": "Fire Rate",
+            "th": "อัตรายิง"
+        },
+        "condition": {
+            "en": "Condition",
+            "th": "เงื่อนไข"
+        },
+        "weapondmg": {
+            "en": "Weapon DMG",
+            "th": "ดาเมจอาวุธ"
+        },
+        "elementdmg": {
+            "en": "Elemental DMG",
+            "th": "ดาเมจธาตุ"
+        },
+        "magazinecapacity": {
+            "en": "Magazine Capacity",
+            "th": "ความจุกระสุน"
+        },
+        "dmgreduce": {
+            "en": "Damage Reduction",
+            "th": "ลดความเสียหาย"
+        },
+        "weakspotdmg": {
+            "en": "Weak Spot DMG",
+            "th": "ความเสียหายต่อจุดอ่อน"
+        },
+        "meleedmg": {
+            "en": "Melee DMG",
+            "th": "ดาเมจอาวุธระยะประชิด"
         }
     }
 }

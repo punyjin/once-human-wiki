@@ -37,15 +37,15 @@ fetch(jsonDataUrl)
 function translateModType(modType) {
     const filterTranslations = {
         "all": "ทั้งหมด",
-        "burn": "เผาไหม้",
-        "fortex": "ฟอร์เท็กซ์",
-        "surge": "เซิร์จ",
-        "unstableBomber": "บอมเบอร์ไม่เสถียร",
-        "warfare": "สงคราม",
-        "bullEye": "บูลอาย",
-        "fastgunner": "ฟาสต์กันเนอร์",
-        "bounce": "บาวน์ซ",
-        "shrapnel": "เศษระเบิด"
+        "burn": "การเผาไหม้",
+        "fortex": "พายุวนแห่งน้ำแข็ง",
+        "surge": "พลังงานสายฟ้า",
+        "unstableBomber": "การระเบิดที่ไม่เสถียร",
+        "warfare": "สงครามป้อมปราการ",
+        "bullEye": "เป้ากระทิง",
+        "fastgunner": "พลปืนเร็ว",
+        "bounce": "การกระเด้ง",
+        "shrapnel": "สะเก็ดระเบิด"
     };
     return filterTranslations[modType] || Object.keys(filterTranslations).find(key => filterTranslations[key] === modType);
 }
@@ -64,11 +64,18 @@ function applyFilters() {
 
     const filteredMods = mods.filter(mod => {
         const matchesSearch = mod.name.th.toLowerCase().includes(searchTerm) || mod.name.en.toLowerCase().includes(searchTerm);
-        const matchesFilter = filterValue === 'all' || mod.modType === filterValue || mod.modType === translatedFilterValue;
+        const matchesFilter = filterValue === 'all' ||
+            mod.modType.en.toLowerCase() === filterValue.toLowerCase() ||  // ตรวจสอบ modType ภาษาอังกฤษ
+            mod.modType.th.toLowerCase() === filterValue.toLowerCase() ||  // ตรวจสอบ modType ภาษาไทย
+            mod.modType.en.toLowerCase() === translatedFilterValue.toLowerCase() ||  // ตรวจสอบ modType ภาษาอังกฤษที่แปลแล้ว
+            mod.modType.th.toLowerCase() === translatedFilterValue.toLowerCase();    // ตรวจสอบ modType ภาษาไทยที่แปลแล้ว
         return matchesSearch && matchesFilter;
     });
 
     populateTable(filteredMods, 'th'); 
+    console.log(filteredMods);
+    console.log(translatedFilterValue);
+
 }
 
 // Function to populate table based on the data
@@ -123,7 +130,12 @@ function populateTable(mods, lang) {
         locationCell.classList.add('location');
         mod.location.forEach(loc => {
             const locElement = document.createElement('div');
-            locElement.textContent = loc[lang];
+            
+            const linkElement = document.createElement('a');
+            // linkElement.href = `#${loc['en']}`; 
+            linkElement.textContent = `• ${loc['en']}`;
+            
+            locElement.appendChild(linkElement);
             locationCell.appendChild(locElement);
         });
         row.appendChild(locationCell);
@@ -159,6 +171,7 @@ function loadFilterOptions(lang1, lang2) {
                     filterSelect.appendChild(option);
                 }
             }
+            
         })
         .catch(error => console.error('Error loading filter options:', error));
 }
