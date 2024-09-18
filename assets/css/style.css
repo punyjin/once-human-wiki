@@ -1,5 +1,6 @@
-/* style.css */
-
+body{
+    background-color: rgba(rgb(57, 57, 57), rgb(89, 89, 89), rgb(79, 79, 79), 0.5)
+}
 /* Navbar link hover effect */
 .navbar-nav .nav-link:hover {
     color: #00b4d8;
@@ -21,6 +22,8 @@ table {
 
 th, td {
     padding: 10px;
+    text-align: center;
+    vertical-align: middle;
     border: 1px solid #ddd;
 }
 
@@ -29,13 +32,14 @@ th {
     color: #000;
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #f9f9f9;
-}
+} */
 
 /* Custom classes */
 .stats {
-    font-size: 12px;
+    font-size: 16px;
+    
 }
 
 .location, .gear-type {
@@ -57,4 +61,11 @@ img {
     width: 75px;
     height: 75px;
     object-fit: cover;
+}
+.footers{
+    display: flex; 
+    justify-content: center; 
+    font-size: large; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: grey;
 }

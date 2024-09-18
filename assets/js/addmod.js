@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "bullEye": { "en": "The Bull's Eye", "th": "เป้ากระทิง" },
             "fastgunner": { "en": "Fast Gunner", "th": "พลปืนเร็ว" },
             "bounce": { "en": "Bounce", "th": "การกระเด้ง" },
-            "shrapnel": { "en": "Shrapnel", "th": "สะเก็ดระเบิด" },
+            "shrapnel": { "en": "Shrapnel", "th": "เศษกระสุน" },
             "HP": { "en": "HP", "th": "HP" },
             "critrate": { "en": "Crit Rate", "th": "อัตราคริติคอล" },
             "critdmg": { "en": "Crit DMG", "th": "ดาเมจคริติคอล" },
@@ -45,12 +45,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const locations = [
         { en: "Weapon Crates", th: "กล่องอาวุธ" },
+        { en: "Gear Crates", th: "กล่องอุปกรณ์" },
+        //Boss
         { en: "Shadow Hound", th: "เงาพันธุ์หมา" },
         { en: "Ravenous Hunter", th: "นักล่ากระหาย" },
         { en: "Forsaken Giant", th: "ยักษ์ที่ถูกทอดทิ้ง" },
         { en: "Treant", th: "ต้นไม้ยักษ์" },
+        { en: "Arachsiam", th:"อาราคสยาม" },
         { en: "LEA Lab", th: "ห้องทดลอง LEA" },
-        { en: "Gear Crates", th: "กล่องอุปกรณ์" },
+        //Silo
         { en: "Silo ALPHA", th: "ไซโล ALPHA" },
         { en: "Silo EX1", th: "ไซโล EX1" },
         { en: "Silo THETA", th: "ไซโล THETA" },

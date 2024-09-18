@@ -45,7 +45,20 @@ function translateModType(modType) {
         "bullEye": "เป้ากระทิง",
         "fastgunner": "พลปืนเร็ว",
         "bounce": "การกระเด้ง",
-        "shrapnel": "สะเก็ดระเบิด"
+        "shrapnel": "เศษกระสุน",
+        "HP": "HP",
+        "critrate": "อัตราคริติคอล",
+        "critdmg": "ดาเมจคริติคอล",
+        "statusdmg": "ดาเมจสถานะ",
+        "def": "ป้องกัน",
+        "firerate": "อัตรายิง",
+        "condition": "เงื่อนไข",
+        "weapondmg": "ดาเมจอาวุธ",
+        "elementdmg": "ดาเมจธาตุ",
+        "magazinecapacity": "ความจุกระสุน",
+        "dmgreduce": "ลดความเสียหาย",
+        "weakspotdmg": "ความเสียหายต่อจุดอ่อน",
+        "meleedmg": "ดาเมจอาวุธระยะประชิด"
     };
     return filterTranslations[modType] || Object.keys(filterTranslations).find(key => filterTranslations[key] === modType);
 }
@@ -73,9 +86,6 @@ function applyFilters() {
     });
 
     populateTable(filteredMods, 'th'); 
-    console.log(filteredMods);
-    console.log(translatedFilterValue);
-
 }
 
 // Function to populate table based on the data
@@ -121,7 +131,7 @@ function populateTable(mods, lang) {
 
         // Mod Type column
         const modTypeCell = document.createElement('td');
-        modTypeCell.textContent = mod.modType[lang];
+        modTypeCell.textContent = `${mod.modType.th} (${mod.modType.en})`;
         modTypeCell.classList.add('mod-type');
         row.appendChild(modTypeCell);
 

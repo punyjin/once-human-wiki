@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Animation for fade-in effect */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Color Picker */
+#color-picker {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+#color-picker:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Message Input */
+#message-input {
+    width: 100%;
+    height: 200px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+#message-input:focus {
+    border-color: #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+/* Buttons */
+button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Apply Button */
+#apply-button {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Reset Button */
+#reset-button {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+/* Copy Code Button */
+#copy-code {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+/* Heart Button */
+footer span[aria-label="heart"] {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+footer span[aria-label="heart"]:hover {
+    transform: scale(1.2);
+}
+
+/* Preset Select */
+#preset-select {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    transition: border-color 0.3s ease;
+}
+
+#preset-select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Contrast Meter */
+#contrast-meter {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Char Counter */
+#char-counter {
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Output Code */
+#output-code {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+#output-code:focus {
+    border-color: #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+/* Footer */
+footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.navbar-nav .nav-link:hover {
+    color: #00b4d8;
+    transition: color 0.3s ease-in-out;
+}
+.blurred {
+    filter: blur(5px);
+}
+.contrast-container {
+    position: relative;
+}
+.contrast-meter {
+    width: 100%;
+}
+.fade-in {
+    animation: fadeInBackground-1 3s infinite alternate;
+}
+@keyframes fadeInBackground-1 {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeInBackground-2 {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}

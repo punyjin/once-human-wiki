@@ -2,7 +2,7 @@
     {
         "name": {
             "en": "Burning Wrath",
-            "th": "ความโกรธของไฟ"
+            "th": "ไฟโทสะที่ร้อนแรง"
         },
         "gearType": {
             "en": "Weapon",
@@ -14,7 +14,7 @@
         },
         "stats": {
             "en": "Triggering Burn has a 25% chance to grant +1 Burn stacks",
-            "th": "การติดไฟมีโอกาส 25% ที่จะเพิ่มสแต็กไฟ +1"
+            "th": "เมื่อเรียกใช้สถานะ Burn มีโอกาส 25% ที่จะเพิ่มการทับซ้อนของสถานะ Burn +1 "
         },
         "location": [
             {
@@ -28,6 +28,14 @@
             {
                 "en": "Ravenous Hunter",
                 "th": "นักล่ากระหาย"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
             }
         ],
         "imageUrl": "assets/imgs/mods/Burning_Wrath.png"
@@ -57,6 +65,18 @@
             {
                 "en": "Shadow Hound",
                 "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Ravenous Hunter",
+                "th": "นักล่ากระหาย"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
             }
         ],
         "imageUrl": "assets/imgs/mods/Flame_Resonance.png"
@@ -101,5 +121,1326 @@
             }
         ],
         "imageUrl": "assets/imgs/mods/Blaze_Blessing.png"
+    },
+    {
+        "name": {
+            "en": "Embers",
+            "th": "เถ้าถ่าน"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Burn",
+            "th": "การเผาไหม้"
+        },
+        "stats": {
+            "en": "When Burn is removed, stacks only -50%",
+            "th": "เมื่อสถานะ Burn ถูกลบออก การทับซ้อนจะลดเพียง -50% เท่านั้น"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Ravenous Hunter",
+                "th": "นักล่ากระหาย"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Embers.png"
+    },
+    {
+        "name": {
+            "en": "Frosty Blessing",
+            "th": "พรแห่งน้ำแข็ง"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Frost Vortex",
+            "th": "พายุวนแห่งน้ำแข็ง"
+        },
+        "stats": {
+            "en": "When Frost Vortex disappears, restore 10% of HP.",
+            "th": "เมื่อ สถานะ Frost Vortex หายไป จะฟื้นฟู HP 10% ของ HP สูงสุด"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Ravenous Hunter",
+                "th": "นักล่ากระหาย"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/FrostyBlessing.png"
+    },
+    {
+        "name": {
+            "en": "Cryo Blast",
+            "th": "ไครโอ บลาสต์"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Frost Vortex",
+            "th": "พายุวนแห่งน้ำแข็ง"
+        },
+        "stats": {
+            "en": "Frost Vortex applies Frostbite. When Frostbite is active, Vulnerability +4% and Movement Speed -10%.",
+            "th": "สถานะ Frost Vortex จะเรียกใช้สถานะ Frostbite เมื่อสถานะ Frostbite ทำงาน ศัตรูจะได้รับ สถานะ ความเปราะบาง +4% และ ความเร็วในการเคลื่อนที่ -10%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Ravenous Hunter",
+                "th": "นักล่ากระหาย"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/CryoBlast.png"
+    },
+    {
+        "name": {
+            "en": "Vortex Multiplier",
+            "th": "ตัวคูณกระแสพายุวนแห่งน้ำแข็ง"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Frost Vortex",
+            "th": "พายุวนแห่งน้ำแข็ง"
+        },
+        "stats": {
+            "en": "Max number of Frost Vortexes +1, Frost Vortex DMG +10%",
+            "th": "จำนวนสูงสุดของ พายุวนแห่งน้ำแข็ง (Frost Vortex) +1 และ เพิ่มดาเมจ พายุวนแห่งน้ำแข็ง (Frost Vortex)  +10%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Ravenous Hunter",
+                "th": "นักล่ากระหาย"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/VortexMultiplier.png"
+    },
+    {
+        "name": {
+            "en": "Shattering Ice",
+            "th": "น้ำแข็งแตกละเอียด"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Frost Vortex",
+            "th": "พายุวนแห่งน้ำแข็ง"
+        },
+        "stats": {
+            "en": "When an enemy at the center of the Frost Vortex is defeated, deal 50% Psi Intensity Ice DMG to enemies within 1m 1 time.",
+            "th": "เมื่อศัตรูที่อยู่ใจกลาง พายุวนแห่งน้ำแข็ง (Frost Vortex) ถูกกำจัด จะสร้าง DMG น้ำแข็งอิงตามค่า Psi 50% แก่ศัตรูที่อยู่ในระยะ 1 เมตรอีก 1 ครั้ง"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Ravenous Hunter",
+                "th": "นักล่ากระหาย"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Shattering_Ice.png"
+    },
+    {
+        "name": {
+            "en": "Surge Amplifier",
+            "th": "เครื่องขยายสัญญาณไฟกระชาก"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Power Surge",
+            "th": "พลังงานสายฟ้า"
+        },
+        "stats": {
+            "en": "Dealing Power Surge DMG grants Power Surge DMG +5% for 3s, up to 4 stack(s).",
+            "th": "เมื่อทำดาเมจ พลังงานสายฟ้า (Power Surge) จะทำให้ดาเมจ ของ พลังงานสายฟ้า (Power Surge) เพิ่มขึ้น +5% เป็นเวลา 3 วินาที ทับซ้อนได้สูงสุด 4 ขั้น"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Treant",
+                "th": "ต้นไม้ยักษ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/SurgeAmplifier.png"
+    },
+    {
+        "name": {
+            "en": "Static Shock",
+            "th": "ไฟฟ้าสถิตย์"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Power Surge",
+            "th": "พลังงานสายฟ้า"
+        },
+        "stats": {
+            "en": "Power Surge Status duration -50% Power Surge DMG +20%.",
+            "th": "ระยะเวลาของสถานะ พลังงานสายฟ้า (Power Surge) -50% ดาเมจพลังงานสายฟ้า (Power Surge) +20%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Treant",
+                "th": "ต้นไม้ยักษ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/StaticShock.png"
+    },
+    {
+        "name": {
+            "en": "Shock Diffusion",
+            "th": "การแพร่กระจายแรงกระแทกสายฟ้า"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Power Surge",
+            "th": "พลังงานสายฟ้า"
+        },
+        "stats": {
+            "en": "When triggering Power Surge, apply the Power Surge status to 1 enemies within 5m of the target (prioritizes enemies that are not affected by Power Surge Status).",
+            "th": "เมื่อเรียกใช้สถานะ พลังงานสายฟ้า (Power Surge) จะทำให้ศัตรู 1 ตัวภายในระยะ 5 เมตรของเป้าหมายติดสถานะ พลังงานสายฟ้า (Power Surge) (ให้ความสำคัญกับศัตรูที่ไม่ได้รับผลกระทบจากสถานะ Power Surge ก่อน)"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Treant",
+                "th": "ต้นไม้ยักษ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ShockDiffusion.png"
+    },
+    {
+        "name": {
+            "en": "Heavy Explosives",
+            "th": "วัตถุระเบิดหนัก"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Unstable Bomber",
+            "th": "การระเบิดที่ไม่เสถียร"
+        },
+        "stats": {
+            "en": "Unstable Bomber inflicts Heavy Attack.",
+            "th": "เมื่อเกิดการระเบิดที่ไม่เสถียรจะทำให้เกิดการโจมตีหนัก"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Treant",
+                "th": "ต้นไม้ยักษ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/HeavyExplosives.png"
+    },
+    {
+        "name": {
+            "en": "Bombardier Souvenir",
+            "th": "กระสุนระเบิดที่ระลึก"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Unstable Bomber",
+            "th": "การระเบิดที่ไม่เสถียร"
+        },
+        "stats": {
+            "en": "When triggering Unstable Bomber, automatically refill 10% of your magazine.",
+            "th": "เมื่อเกิดสถานะ การระเบิดที่ไม่เสถียร (Unstable Bomber) จะเติมกระสุนในแม็กกาซีน 10% โดยอัตโนมัติ"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Treant",
+                "th": "ต้นไม้ยักษ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/BombardierSouvenir.png"
+    },
+    {
+        "name": {
+            "en": "Reckless Bomber",
+            "th": "ระเบิดที่สุ่มเสี่ยง"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Unstable Bomber",
+            "th": "การระเบิดที่ไม่เสถียร"
+        },
+        "stats": {
+            "en": "For every 1% Crit Rate, Unstable Bomber DMG +0.5%",
+            "th": "สำหรับอัตราคริติคอลทุกๆ 1% จะเพิ่มความเสียหาย ของ การระเบิดที่ไม่เสถียร (Unstable Bomber) ขึ้น +0.5%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Treant",
+                "th": "ต้นไม้ยักษ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/RecklessBomber.png"
+    },
+    {
+        "name": {
+            "en": "Super Charged",
+            "th": "ซุปเปอร์ชาร์จ"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Unstable Bomber",
+            "th": "การระเบิดที่ไม่เสถียร"
+        },
+        "stats": {
+            "en": "Triggering Unstable Bomber grants Unstable Bomber DMG +4% for 3s. Effect can stack up to 6 times.",
+            "th": "เมื่อเกิดสถานะ การระเบิดที่ไม่เสถียร (Unstable Bomber) จะทำให้ ดาเมจของ การระเบิดที่ไม่เสถียร (Unstable Bomber) เพิ่มขึ้น 4% เป็นเวลา 3 วินาที เอฟเฟกต์สามารถซ้อนทับได้สูงสุด 6 ครั้ง"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Treant",
+                "th": "ต้นไม้ยักษ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/SuperCharged.png"
+    },
+    {
+        "name": {
+            "en": "Shield Breaker",
+            "th": "นักทำลายโล่"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Shrapnel",
+            "th": "เศษกระสุน"
+        },
+        "stats": {
+            "en": "When hitting a shielded enemy, Shrapnel DMG +60% for 1s",
+            "th": "เมื่อโจมตีศัตรูที่มีเกราะป้องกัน ความเสียหายจาก เศษกระสุน (Shrapnel) +60% เป็นเวลา 1 วินาที"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ShieldBreaker.png"
+    },
+    {
+        "name": {
+            "en": "Shrapnel Souvenir",
+            "th": "เศษกระสุนที่ระลึก"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Shrapnel",
+            "th": "เศษกระสุน"
+        },
+        "stats": {
+            "en": "When Shrapnel hits a Weakspot, automatically refills 1 bullet from inventory.",
+            "th": "เมื่อ เศษกระสุน (Shrapnel) กระทบกับจุดอ่อน จะเติมกระสุนจากช่องเก็บของโดยอัตโนมัติ 1 นัด (หากเล็งและยิงไปที่จุดอ่อนจะไม่นับ)"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ShrapnelSouvenir.png"
+    },
+    {
+        "name": {
+            "en": "Shatter Them All",
+            "th": "ทำลายพวกมันทั้งหมด"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Shrapnel",
+            "th": "เศษกระสุน"
+        },
+        "stats": {
+            "en": "The more parts the Shrapnel hits, the higher the Shrapnel DMG. Each part +15%.",
+            "th": "ยิ่งชิ้นส่วนของ เศษกระสุน (Shrapnel) โดนศัตรูมากเท่าไหร่ ความเสียหายจาก เศษกระสุน (Shrapnel) ก็จะยิ่งมากขึ้นเท่านั้น โดยแต่ละชิ้นส่วน +15%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ShatterThemAll.png"
+    },
+    {
+        "name": {
+            "en": "Shrapnel Smash",
+            "th": "สะเก็ดระเบิด"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Shrapnel",
+            "th": "เศษกระสุน"
+        },
+        "stats": {
+            "en": "Triggering Shrapnel grants +1.0% Shrapnel Crit Rate for 2 seconds, up to 20 stacks",
+            "th": "เมื่อเกิดสถานะ เศษกระสุน (Shrapnel) จะทำให้โอกาสคริติคอลของ เศษกระสุน (Shrapnel) เพิ่มขึ้น 1.0% เป็นเวลา 2 วินาที ทับซ้อนสูงสุด 20 ครั้ง"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ShrapnelSmash.png"
+    },
+    {
+        "name": {
+            "en": "Cowboy",
+            "th": "คาวบอย"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Fast Gunner",
+            "th": "พลปืนเร็ว"
+        },
+        "stats": {
+            "en": "After reloading when the magazine is empty, Fast Gunner trigger chance  +100%(based on the weapon's Trigger Chance) for 5s. When Fast Gunner reaches max stacks, the duration is increased by 5s.",
+            "th": "หลังจากที่บรรจุกระสุนใหม่เมื่อแม็กกาซีนว่างเปล่า โอกาสการเกิดสถานะของ พลปืนเร็ว (Fast Gunner) จะเพิ่มขึ้น 100% (ขึ้นอยู่กับโอกาสเกิดสถานะของอาวุธ) เป็นเวลา 5 วินาที เมื่อ พลปืนเร็ว (Fast Gunner) ทับซ้อนถึงสูงสุด ระยะเวลาจะเพิ่มขึ้น 5 วินาที"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Cowboy.png"
+    },
+    {
+        "name": {
+            "en": "Shoot Out",
+            "th": "ยิงมันออกไป"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Fast Gunner",
+            "th": "พลปืนเร็ว"
+        },
+        "stats": {
+            "en": "When triggering Fast Gunner, Weapon DMG +1.5% for 10s, up to 20 stack(s).",
+            "th": "เมื่อเกิดสถานะ พลปืนเร็ว (Fast Gunner) ดาเมจของอาวุธเพิ่มขึ้น +1.5% เป็นเวลา 10 วินาที ทับซ้อนได้สูงสุด 20 ครั้ง"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ShootOut.png"
+    },
+    {
+        "name": {
+            "en": "Shooting Blitz",
+            "th": "การยิงแบบสายฟ้าแลบ"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Fast Gunner",
+            "th": "พลปืนเร็ว"
+        },
+        "stats": {
+            "en": "Fast Gunner duration +4s. When Fast Gunner is active, Weapon DMG +15%.",
+            "th": "ระยะเวลาของสถานะ พลปืนเร็ว (Fast Gunner) อยู่นานขึ้น +4 วินาที และ เมื่อสถานะ พลปืนเร็ว (Fast Gunner) ทำงาน ดาเมจของอาวุธเพิ่มขึ้น +15%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ShootingBlitz.png"
+    },
+    {
+        "name": {
+            "en": "Precision Rush",
+            "th": "รีบยิงแต่แม่นยำ"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Fast Gunner",
+            "th": "พลปืนเร็ว"
+        },
+        "stats": {
+            "en": "When Fast Gunner is active, increase Weakspot DMG while continuously shooting for 3s, up to 45%",
+            "th": "ขณะที่สถานะ พลปืนเร็ว (Fast Gunner) ทำงาน จะเพิ่ม ดาเมจจุดอ่อนขณะยิงต่อเนื่องเป็นเวลา 3 วินาที ทับซ้อนสูงสุด 45%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/PrecisionRush.png"
+    },
+    {
+        "name": {
+            "en": "Recover Mark",
+            "th": "กู้คืนเครื่องหมาย"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "The Bull's Eye",
+            "th": "เป้ากระทิง"
+        },
+        "stats": {
+            "en": "When defeating marked enemies, recover 15% HP and 25% Stamina.",
+            "th": "เมื่อกำจัดศัตรูที่ทำเครื่องหมายไว้ได้ จะฟื้นฟูพลังชีวิต 15% และพลังงาน 25%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/RecoverMark.png"
+    },
+    {
+        "name": {
+            "en": "Hunters Perk",
+            "th": "ความสามารถพิเศษของนักล่า"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "The Bull's Eye",
+            "th": "เป้ากระทิง"
+        },
+        "stats": {
+            "en": "Marked enemies DMG vs. Metas -20%.",
+            "th": "ความเสียหายของศัตรูที่ทำเครื่องหมายไว้ vs Metas -20%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/HuntersPerk.png"
+    },
+    {
+        "name": {
+            "en": "Vulnerability Amplifier",
+            "th": "ขยายความเปราะบาง"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "The Bull's Eye",
+            "th": "เป้ากระทิง"
+        },
+        "stats": {
+            "en": "The Bull's Eye adds Vulnerability +8%.",
+            "th": "สถานะ เป้ากระทิง (The Bull's Eye) เพิ่มความเปราะบาง +8%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/VulnerabilityAmplifier.png"
+    },
+    {
+        "name": {
+            "en": "Spreading Marks",
+            "th": "แพร่กระจายเครื่องหมาย"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "The Bull's Eye",
+            "th": "เป้ากระทิง"
+        },
+        "stats": {
+            "en": "When a marked enemy is defeated, The Bull's Eye will spread to 1 enemies within 15m.",
+            "th": "เมื่อศัตรูที่ทำเครื่องหมายไว้ถูกกำจัด จะแพร่กระจายสถานะ เป้ากระทิง (The Bull's Eye) ไปยังศัตรู 1 ตัวภายในระยะ 15 เมตร"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/SpreadingMarks.png"
+    },
+    {
+        "name": {
+            "en": "United We Stand",
+            "th": "สามัคคีเรายืนหยัด"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Fortress Warfare",
+            "th": "สงครามป้อมปราการ"
+        },
+        "stats": {
+            "en": "The more players inside the Fortress Warfare, the greater the Weapon DMG bonus, up to 40%",
+            "th": "ยิ่งมีผู้เล่นในพื้นที่สถานะ สงครามป้อมปราการ (Fortress Warfare) มากเท่าไหร่ ก็จะยิ่งเพิ่ม โบนัสดาเมจอาวุธ ขึ้น สูงสุดถึง 40%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/UnitedWeStand.png"
+    },
+    {
+        "name": {
+            "en": "Final Territory",
+            "th": "ดินแดนแห่งสุดท้าย"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Fortress Warfare",
+            "th": "สงครามป้อมปราการ"
+        },
+        "stats": {
+            "en": "When Fortress Warfare ends, Weapon DMG +10%, Movement Speed +10% for 10s",
+            "th": "เมื่อสงครามป้อมปราการ (Fortress Warfare) สิ้นสุดลง ความเสียหายของอาวุธเพิ่มขึ้น +10% ความเร็วในการเคลื่อนที่ +10% เป็นระยะเวลา 10 วินาที"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/FinalTerritory.png"
+    },
+    {
+        "name": {
+            "en": "Durable Territory",
+            "th": "ดินแดนที่มั่นคงและทนทาน"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Fortress Warfare",
+            "th": "สงครามป้อมปราการ"
+        },
+        "stats": {
+            "en": "Every enemy defeated while in Fortress Warfare state will extend the effect by 5s (up to 5 times for every Fortress Warfare)",
+            "th": "เมื่อกำจัดศัตรู ขณะอยู่ในสถานะ สงครามป้อมปราการ (Fortress Warfare) จะเพิ่มระยะเวลาสถานะขึ้นเป็นระยะเวลา 5 วินาที (ทับซ้อนสูงสุด 5 ครั้งสำหรับ สงครามป้อมปราการ (Fortress Warfare) แต่ละครั้ง)"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/DurableTerritory.png"
+    },
+    {
+        "name": {
+            "en": "Portable Territory",
+            "th": "อาณาเขตพกพา"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Fortress Warfare",
+            "th": "สงครามป้อมปราการ"
+        },
+        "stats": {
+            "en": "After leaving Fortress Warfare, the status will remain for 2s.",
+            "th": "หลังจากออกจากสถานะ สงครามป้อมปราการ (Fortress Warfare) สถานะจะคงอยู่นานขึ้น 2 วินาที"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Arachsiam",
+                "th": "อาราคสยาม"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/PortableTerritory.png"
+    },
+    {
+        "name": {
+            "en": "Targeted Bounce",
+            "th": "การตีกลับแบบมีเป้าหมาย"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Bounce",
+            "th": "การกระเด้ง"
+        },
+        "stats": {
+            "en": "Bounce Weakspot Priority +300%.",
+            "th": "เพิ่มโอกาสที่กระสุนจะกระเด้งโดนจุดอ่อน +300%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/TargetedBounce.png"
+    },
+    {
+        "name": {
+            "en": "Bounce Rampage",
+            "th": "เด้งๆแบบอาละวาด"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Bounce",
+            "th": "การกระเด้ง"
+        },
+        "stats": {
+            "en": "Bounce Deals more DMG as more targets are hit, up to DMG +45%.",
+            "th": "การกระเด้ง (Bounce) สร้างความเสียหายมากขึ้นเมื่อมีเป้าหมายเยอะขึ้น ทับซ้อนดาเมจสูงสุดถึง +45%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/BounceRampage.png"
+    },
+    {
+        "name": {
+            "en": "Not Throw Away",
+            "th": "อย่าโยนมันทิ้งไป"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Bounce",
+            "th": "การกระเด้ง"
+        },
+        "stats": {
+            "en": "Bounce can hit allies but deals no DMG and refills 1 bullet",
+            "th": "เอฟเฟค การกระเด้ง (Bounce) จะสามารถโจมตีพันธมิตรได้แต่จะไม่สร้างความเสียหาย และจะเติมกระสุนได้เอง 1 นัด"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/NotThrowAwayYourShot.png"
+    },
+    {
+        "name": {
+            "en": "Super Bullet",
+            "th": "กระสุนพระราชทาน"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Bounce",
+            "th": "การกระเด้ง"
+        },
+        "stats": {
+            "en": "Bounce Crit Rate +10%, Bounce Crit DMG + 25%",
+            "th": "อัตราคริติคอลของ เอฟเฟค การกระเด้ง (Bounce) +10%, ความเสียหายคริติคอลของ การกระเด้ง (Bounce) + 25%"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/SuperBullet.png"
+    },
+    {
+        "name": {
+            "en": "Shock Rampage",
+            "th": "สายฟ้าอาละวาด"
+        },
+        "gearType": {
+            "en": "Weapon",
+            "th": "อาวุธ"
+        },
+        "modType": {
+            "en": "Power Surge",
+            "th": "พลังงานสายฟ้า"
+        },
+        "stats": {
+            "en": "Dealing Power Surge DMG grants +5% Power Surge Trigger Chance (based on weapon's Trigger Chance) for 5s. Effect can stack up to 4 times.",
+            "th": "เมื่อทำดาเมจ พลังงานสายฟ้า (Power Surge) จะ เพิ่ม +5% โอกาสเกิดสถานะ พลังงานสายฟ้า (Power Surge) (อ้างอิงจาก โอกาสพื้นฐานหลักของอาวุธ) เป็นระยะเวลา 5วินาที สามารถทับซ้อนได้สูงสุด 4 ครั้ง"
+        },
+        "location": [
+            {
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "Treant",
+                "th": "ต้นไม้ยักษ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ShockRampage.png"
     }
 ]

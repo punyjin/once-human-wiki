@@ -39,3 +39,7 @@ body {
 .card:hover {
     transform: scale(1.05);
 }
+.navbar-nav .nav-link:hover {
+    color: #00b4d8;
+    transition: color 0.3s ease-in-out;
+}
