@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.construction {
+    position: relative;
+}
+
+.props {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.tool {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: bounce 2s infinite;
+}
+
+.hammer {
+    background-image: url('../imgs/props/hammer.png');
+}
+
+.wrench {
+    background-image: url('../imgs/props/setting-gear.png');
+}
+
+.cone {
+    background-image: url('../imgs/props/traffic-cone.png');
+    animation: bounce 2s infinite 1s;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.message h1 {
+    font-size: 36px;
+    margin: 0;
+    animation: fadeIn 8s infinite;
+}
+
+.message p {
+    font-size: 18px;
+    margin: 10px 0 0;
+    animation: fadeIn 8s infinite 4s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    50% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-10px); }
+}
+
+.progress-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto; /* Center horizontally and add vertical margin */
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-fill {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, #000 25%, #ff0 25%, #ff0 50%, #000 50%, #000 75%, #ff0 75%);
+    background-size: 200% 100%;
+    animation: stripe 2s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes stripe {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}

@@ -6,7 +6,7 @@
         },
         "burn": {
             "en": "Burn",
-            "th": "การเผาไหม้"
+            "th": "เผาไหม้"
         },
         "fortex": {
             "en": "Frost Vortex",
@@ -99,7 +99,7 @@
             },
             "Helmet": {
                 "en": "Helmet",
-                "th": "หมวกนิรภัย"
+                "th": "หมวก"
             },
             "Mask": {
                 "en": "Mask",

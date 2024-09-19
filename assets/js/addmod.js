@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const modTypes = {
         "filters": {
-            "burn": { "en": "Burn", "th": "การเผาไหม้" },
+            "burn": { "en": "Burn", "th": "เผาไหม้" },
             "fortex": { "en": "Frost Vortex", "th": "พายุวนแห่งน้ำแข็ง" },
             "surge": { "en": "Power Surge", "th": "พลังงานสายฟ้า" },
             "unstableBomber": { "en": "Unstable Bomber", "th": "การระเบิดที่ไม่เสถียร" },

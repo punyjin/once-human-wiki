@@ -10,7 +10,7 @@
         },
         "modType": {
             "en": "Burn",
-            "th": "การเผาไหม้"
+            "th": "เผาไหม้"
         },
         "stats": {
             "en": "Triggering Burn has a 25% chance to grant +1 Burn stacks",
@@ -51,7 +51,7 @@
         },
         "modType": {
             "en": "Burn",
-            "th": "การเผาไหม้"
+            "th": "เผาไหม้"
         },
         "stats": {
             "en": "Max Burn stack +2, Burn duration -20.0%",
@@ -92,11 +92,11 @@
         },
         "modType": {
             "en": "Burn",
-            "th": "การเผาไหม้"
+            "th": "เผาไหม้"
         },
         "stats": {
             "en": "When defeating an enemy affected by Burn, recover 5% HP.",
-            "th": "เมื่อเอาชนะศัตรูที่ได้รับผลกระทบจากการเผาไหม้ จะฟื้นฟู HP 5%"
+            "th": "เมื่อเอาชนะศัตรูที่ได้รับผลกระทบจากเผาไหม้ จะฟื้นฟู HP 5%"
         },
         "location": [
             {
@@ -133,7 +133,7 @@
         },
         "modType": {
             "en": "Burn",
-            "th": "การเผาไหม้"
+            "th": "เผาไหม้"
         },
         "stats": {
             "en": "When Burn is removed, stacks only -50%",
@@ -1541,5 +1541,1787 @@
             }
         ],
         "imageUrl": "assets/imgs/mods/ElementalHavoc.png"
+    },
+    {
+        "name": {
+            "en": "Momentum Up",
+            "th": "แรงผลักดันสูงขึ้น"
+        },
+        "gearType": {
+            "en": "Helmet",
+            "th": "หมวก"
+        },
+        "modType": {
+            "en": "Weapon DMG",
+            "th": "ดาเมจอาวุธ"
+        },
+        "stats": {
+            "en": "Fire Rate 10%+ for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine.",
+            "th": "อัตราการยิงเพิ่มขึ้น +10% สำหรับกระสุน 50% แรกของแม็กกาซีน และความเสียหายของอาวุธเพิ่มขึ้น +30% สำหรับกระสุน 50% ที่เหลือของแม็กกาซีน"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo ALPHA",
+                "th": "ไซโล ALPHA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/MomentumUp.png"
+    },
+    {
+        "name": {
+            "en": "Precise Strike",
+            "th": "การโจมตีที่แม่นยำ"
+        },
+        "gearType": {
+            "en": "Helmet",
+            "th": "หมวก"
+        },
+        "modType": {
+            "en": "Weak Spot DMG",
+            "th": "ความเสียหายต่อจุดอ่อน"
+        },
+        "stats": {
+            "en": "Hitting Weakspots grants +12.0% Weakspot DMG for 3 seconds, up to 3 stacks",
+            "th": "การโจมตีจุดอ่อนจะทำให้ได้รับ DMG ต่อจุดอ่อนเพิ่มขึ้น 12.0% เป็นระยะเวลา 3 วินาที ทับซ้อนได้สูงสุด 3 ครั้ง"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo ALPHA",
+                "th": "ไซโล ALPHA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/PreciseStrike.png"
+    },
+    {
+        "name": {
+            "en": "Work of Proficiency",
+            "th": "การทำงานที่ต้องใช้ความชำนาญ"
+        },
+        "gearType": {
+            "en": "Helmet",
+            "th": "หมวก"
+        },
+        "modType": {
+            "en": "Elemental DMG",
+            "th": "ดาเมจธาตุ"
+        },
+        "stats": {
+            "en": "Reloading an empty mag grants 10% Reload Speed and +20.0% Elemental DMG, lasting until the next reload",
+            "th": "การโหลดกระสุนใหม่จากแม็กกาซีนที่ว่างเปล่าจะทำให้ได้รับความเร็วในการโหลดกระสุนใหม่ 10% และสร้างความเสียหายธาตุเพิ่มขึ้น 20.0% ซึ่งจะคงอยู่จนกว่าจะโหลดกระสุนใหม่อีกครั้งในครั้งต่อไป"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo ALPHA",
+                "th": "ไซโล ALPHA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/WorkofProficiency.png"
+    },
+    {
+        "name": {
+            "en": "Mag Expansion",
+            "th": "การขยายตัวของแม็ก"
+        },
+        "gearType": {
+            "en": "Helmet",
+            "th": "หมวก"
+        },
+        "modType": {
+            "en": "Magazine Capacity",
+            "th": "ความจุกระสุน"
+        },
+        "stats": {
+            "en": "When the magazine is empty, Magazine Capacity 30%+",
+            "th": "เมื่อแม็กกาซีนหมด ความจุแม็กกาซีน 30%+"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo ALPHA",
+                "th": "ไซโล ALPHA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/MagExpansion.png"
+    },
+    {
+        "name": {
+            "en": "First-Move Advantage",
+            "th": "ได้เปรียบในก้าวแรก"
+        },
+        "gearType": {
+            "en": "Helmet",
+            "th": "หมวก"
+        },
+        "modType": {
+            "en": "Crit Rate",
+            "th": "อัตราคริติคอล"
+        },
+        "stats": {
+            "en": "After reloading, Crit Rate +10%, Crit DMG + 20% for 2s.",
+            "th": "หลังจากที่รีโหลดแล้ว อัตราคริติคอลเพิ่มขึ้น +10%, ความเสียหายคริติคอลเพิ่มขึ้น + 20% เป็นระยะเวลา 2 วินาที"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo ALPHA",
+                "th": "ไซโล ALPHA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/First-MoveAdvantage.png"
+    },
+    {
+        "name": {
+            "en": "Retrusion Explosion",
+            "th": "การระเบิดแบบย้อนกลับ"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Burn",
+            "th": "เผาไหม้"
+        },
+        "stats": {
+            "en": "Crit DMG +40% for enemies with Burn",
+            "th": "ความเสียหายคริติคอลเพิ่มขึ้น +40% แก่ศัตรูที่ติดสถานะ เผาไหม้ (Burn)"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/RetrusionExplosion.png"
+    },
+    {
+        "name": {
+            "en": "Blaze Amplifier",
+            "th": "เบลซ แอมป์"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Burn",
+            "th": "เผาไหม้"
+        },
+        "stats": {
+            "en": "Every stack of Burn grants +3% Psi Intensity DMG.",
+            "th": "ทุกการทับซ้อนของสถานะ เผาไหม้ (Burn) จะเพิ่มความเสียหาย ของ Psi Intensity ขึ้น 3%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/BlazeAmplifier.png"
+    },
+    {
+        "name": {
+            "en": "Lingering Frost",
+            "th": "น้ำค้างแข็งที่คงกระพัน"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Frost Vortex",
+            "th": "พายุวนแห่งน้ำแข็ง"
+        },
+        "stats": {
+            "en": "The longer the duration of Frost Vortex,the higher the Frost Vortex Final DMG, up to +60%.",
+            "th": "ยิ่งระยะเวลาของสถานะ พายุวนแห่งน้ำแข็ง (Frost Vortex) นานขึ้นเท่าใด ความเสียหายสุดท้ายของ พายุวนแห่งน้ำแข็ง (Frost Vortex)  ก็จะยิ่งสูงขึ้น เพิ่มสูงสุดถึง +60%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/LingeringFrost.png"
+    },
+    {
+        "name": {
+            "en": "Obliteration",
+            "th": "พรแห่งการลบล้าง"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Frost Vortex",
+            "th": "พายุวนแห่งน้ำแข็ง"
+        },
+        "stats": {
+            "en": "The more enemies inside Frost Vortex,the higher the Ultimate DMG of Frost Vortex, up to 60%",
+            "th": "ยิ่งมีศัตรูอยู่ในพื้นที่ พายุวนแห่งน้ำแข็ง (Frost Vortex) มากเท่าไหร่ ความเสียหายสูงสุดของ พายุวนแห่งน้ำแข็ง (Frost Vortex) ก็จะยิ่งสูงขึ้น สูงสุดถึง 60%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Obliteration.png"
+    },
+    {
+        "name": {
+            "en": "Point Detonation",
+            "th": "ตัวจุดระเบิด"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Unstable Bomber",
+            "th": "การระเบิดที่ไม่เสถียร"
+        },
+        "stats": {
+            "en": "When Unstable Bomber hits only one enemy, Unstable Bomber Final DMG +25%.",
+            "th": "เมื่อสถานะ การระเบิดที่ไม่เสถียร (Unstable Bomber) โจมตีศัตรูเพียงตัวเดียว ความเสียหายสุดท้ายจาก การระเบิดที่ไม่เสถียร (Unstable Bomber) จะเพิ่มขึ้น 25%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/PointDetonation.png"
+    },
+    {
+        "name": {
+            "en": "Delayed Blast",
+            "th": "การหน่วงระเบิด"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Unstable Bomber",
+            "th": "การระเบิดที่ไม่เสถียร"
+        },
+        "stats": {
+            "en": "Before the bomb explodes, for every 5 hits taken, the bomb's Ultimate DMG  +25%",
+            "th": "ก่อนที่ระเบิดจะเกิดการระเบิด ทุกๆ การโจมตี 5 ครั้งที่ถูกเป้าหมาย ความเสียหายสูงสุดของระเบิดจะเพิ่มขึ้น 25%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/DelayedBlast.png"
+    },
+    {
+        "name": {
+            "en": "Explosive Shrapnel",
+            "th": "เศษกระสุนระเบิด"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Shrapnel",
+            "th": "เศษกระสุน"
+        },
+        "stats": {
+            "en": "The 20th Shrapnel is explosive and deals +300% DMG with guaranteed critical hit.",
+            "th": "เมื่อ เศษกระสุน (Shrapnel) ถูกเป้าหมาย 20 ครั้ง จะทำให้เกิดระเบิดและสร้างความเสียหาย +300% พร้อมรับประกันการติดคริติคอลแน่นอน"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ExplosiveShrapnel.png"
+    },
+    {
+        "name": {
+            "en": "Shrapnel Carnage",
+            "th": "ซากเศษกระสุน"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Shrapnel",
+            "th": "เศษกระสุน"
+        },
+        "stats": {
+            "en": "The chance of Shrapnel hitting Weakspots is increased by 100.0%, with Weakspot DMG +25.0%",
+            "th": "โอกาสที่ เศษกระสุน (Shrapnel) จะโจมตีถูกจุดอ่อนจะเพิ่มขึ้น +100.0% โดยที่ความเสียหายต่อจุดอ่อนเพิ่มขึ้น +25.0%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ShrapnelCarnage.png"
+    },
+    {
+        "name": {
+            "en": "Thunderclap",
+            "th": "สายฟ้าฟาด"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Power Surge",
+            "th": "พลังงานสายฟ้า"
+        },
+        "stats": {
+            "en": "After triggering Power Surge 20 times, the next hit summons Celestial Thunder (Shock DMG of 200% PSI Intensity).",
+            "th": "หลังจากที่เกิดเอฟเฟค พลังงานสายฟ้า (Power Surge) ครบ 20 ครั้ง การโจมตีครั้งถัดไปจะเรียก Celestial Thunder ออกมา (สร้างความเสียหาย ไฟฟ้า เพิ่มขึ้นยึดตาม PSI 200%)"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Thunderclap.png"
+    },
+    {
+        "name": {
+            "en": "First Electrocution",
+            "th": "ไฟช็อตครั้งแรก"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Power Surge",
+            "th": "พลังงานสายฟ้า"
+        },
+        "stats": {
+            "en": "For enemies without Power Surge status, Power Surge's Ultimate DMG +30%",
+            "th": "สำหรับศัตรูที่ไม่มีสถานะ พลังงานสายฟ้า (Power Surge) ความเสียหายสูงสุดของ พลังงานสายฟ้า (Power Surge) เพิ่มขึ้น +30%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/FirstElectrocution.png"
+    },
+    {
+        "name": {
+            "en": "Gunslinger",
+            "th": "มือปืนมีนาย"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Fast Gunner",
+            "th": "พลปืนเร็ว"
+        },
+        "stats": {
+            "en": "When in Fast Gunner status, Weakspot DMG +30%.",
+            "th": "เมื่ออยู่ในสถานะ พลปืนเร็ว(Fast Gunner) ความเสียหายต่อจุดอ่อนเพิ่มขึ้น +30%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Gunslinger.png"
+    },
+    {
+        "name": {
+            "en": "Blitzkrieg",
+            "th": "จู่โจมแบบสายฟ้าแลบ"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Fast Gunner",
+            "th": "พลปืนเร็ว"
+        },
+        "stats": {
+            "en": "Fast Gunner stacks +5 and additional Fire Rate +1% for each stack",
+            "th": "การทับซ้อนของ พลปืนเร็ว (Fast Gunner) เพิ่มขึ้น  +5 และ อัตราการยิงเพิ่มขึ้น +1% สำหรับแต่ละครั้งของการทับซ้อน"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Blitzkrieg.png"
+    },
+    {
+        "name": {
+            "en": "Targeted Strike",
+            "th": "การโจมตีแบบกำหนดเป้าหมาย"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "The Bull's Eye",
+            "th": "เป้ากระทิง"
+        },
+        "stats": {
+            "en": "When hitting marked enemies, Crit Rate +10%, and Crit DMG 25%.",
+            "th": "เมื่อโจมตีถูกศัตรูที่ทำเครื่องหมายไว้ อัตราคริติคอลเพิ่มขึ้น +10% และ ความเสียหายคริติคอลเพิ่มขึ้น 25%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/TargetedStrike.png"
+    },
+    {
+        "name": {
+            "en": "Most Wanted",
+            "th": "เป็นที่ต้องตัว"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "The Bull's Eye",
+            "th": "เป้ากระทิง"
+        },
+        "stats": {
+            "en": "Every time an enemy is marked, Attack +5% for 8s. Effect can stack up to 3 times.",
+            "th": "ทุกครั้งที่มีการทำเครื่องหมายศัตรู พลังโจมตีจะเพิ่มขึ้น 5% เป็นเวลา 8 วินาที เอฟเฟกต์สามารถซ้อนทับได้สูงสุด 3 ครั้ง"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/MostWanted.png"
+    },
+    {
+        "name": {
+            "en": "Light Cannon",
+            "th": "ปืนใหญ่พลังงานแสง"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Fortress Warfare",
+            "th": "สงครามป้อมปราการ"
+        },
+        "stats": {
+            "en": "No Super Armor inside Fortress Warfare While in Fortress Warfare state, Attack +12%.",
+            "th": "ไม่มีเกราะพิเศษอันทรงพลังภายในพื้นที่ สงครามป้อมปราการ (Fortress Warfare) ในขณะที่อยู่ในสถานะ สงครามป้อมปราการ (Fortress Warfare) พลังโจมตี +12%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/LightCannon.png"
+    },
+    {
+        "name": {
+            "en": "Unbreakable",
+            "th": "คงกระพัน"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Fortress Warfare",
+            "th": "สงครามป้อมปราการ"
+        },
+        "stats": {
+            "en": "Fortress Warfare range -30%. While in Fortress Warfare state, Attack +15%",
+            "th": "ระยะของ สงครามป้อมปราการ (Fortress Warfare) -30% ในขณะที่อยู่ในสถานะสงครามป้อมปราการ พลังโจมตี +15%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Unbreakable.png"
+    },
+    {
+        "name": {
+            "en": "Precision Bounce",
+            "th": "การเด้งอย่างแม่นยำ"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Bounce",
+            "th": "การกระเด้ง"
+        },
+        "stats": {
+            "en": "The 6th Bounce is Precision Bounce and deals +100% DMG with guaranteed critical hit.",
+            "th": "การ กระเด้ง (Bounce) ครั้งที่ 6 คือการ กระเด้ง (Bounce) อย่างแม่นยำ และจะสร้างความเสียหาย +100% พร้อมการรับประกันการติดคริติคอล"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/PrecisionBounce.png"
+    },
+    {
+        "name": {
+            "en": "Break Bounce",
+            "th": "การกระเด้งทำลายล้าง"
+        },
+        "gearType": {
+            "en": "Mask",
+            "th": "หน้ากาก"
+        },
+        "modType": {
+            "en": "Bounce",
+            "th": "การกระเด้ง"
+        },
+        "stats": {
+            "en": "When a bullet hits an enemy with HP above 50%, the bullet's Ultimate DMG +50%.",
+            "th": "เมื่อกระสุนถูกศัตรูที่มี HP สูงกว่า 50% ความเสียหายสูงสุดของกระสุน +50%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo EX1",
+                "th": "ไซโล EX1"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/BreakBounce.png"
+    },
+    {
+        "name": {
+            "en": "Resist Advantage",
+            "th": "ข้อได้เปรียบในการต้านทาน"
+        },
+        "gearType": {
+            "en": "Top",
+            "th": "เสื้อ"
+        },
+        "modType": {
+            "en": "Defense",
+            "th": "ป้องกัน"
+        },
+        "stats": {
+            "en": "When out of combat, gain 1 stack of DMG Reduction 5% every 10s. Effect can stack up to 5 times. 1 stack is removed when hit.",
+            "th": "เมื่อไม่ได้อยู่ในสถานะต่อสู้ จะได้รับ สถานะ ต้านทานความเสียหายที่ได้รับ 5% ทุกๆ 10 วินาที สามารถทับซ้อนได้สูงสุดถึง 5 ครั้ง เมื่อถูกโจมตีจะลบครั้งละ 1 หน่วย"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo THETA",
+                "th": "ไซโล THETA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ResistAdvantage.png"
+    },
+    {
+        "name": {
+            "en": "Head Guard",
+            "th": "ป้องกันศรีษะ"
+        },
+        "gearType": {
+            "en": "Top",
+            "th": "เสื้อ"
+        },
+        "modType": {
+            "en": "Defense",
+            "th": "ป้องกัน"
+        },
+        "stats": {
+            "en": "When HP is above 70%, the head area is no longer a weakspot.",
+            "th": "เมื่อมี พลังชีวิต สูงกว่า 70% จะทำให้บริเวณศรีษะของผู้สวมใส่ไม่มีจุดอ่อน"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo THETA",
+                "th": "ไซโล THETA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/HeadGuard.png"
+    },
+    {
+        "name": {
+            "en": "Healing Fortification",
+            "th": "การเสริมสร้างการรักษา"
+        },
+        "gearType": {
+            "en": "Top",
+            "th": "เสื้อ"
+        },
+        "modType": {
+            "en": "Defense",
+            "th": "ป้องกัน"
+        },
+        "stats": {
+            "en": "When using a healing shot, DMG Reduction 40% for 2s.",
+            "th": "เมื่อใช้เข็มฟื้นฟูพลังชีวิต จะได้ความเสียหายจะลดลง 40% เป็นระยะเวลา 2 วินาที"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo THETA",
+                "th": "ไซโล THETA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/HealingFortification.png"
+    },
+    {
+        "name": {
+            "en": "Quick Comeback",
+            "th": "กลับมาอย่างรวดเร็ว"
+        },
+        "gearType": {
+            "en": "Top",
+            "th": "เสื้อ"
+        },
+        "modType": {
+            "en": "Defense",
+            "th": "ป้องกัน"
+        },
+        "stats": {
+            "en": "When using a healing shot, Movement Speed +20% for 2s and refill the magazine from the inventory up to 100%.",
+            "th": "เมื่อใช้เข็มฟื้นฟูพลังชีวิต จะได้รับ ความเร็วในการเคลื่อนที่ +20% เป็นระยะเวลา 2 วินาที และเติมแม็กกาซีนจากช่องเก็บของจนถึง 100% ของแม็กกาซีน"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo THETA",
+                "th": "ไซโล THETA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/QuickComeback.png"
+    },
+    {
+        "name": {
+            "en": "Enduring Shield",
+            "th": "โล่แห่งความคงทน"
+        },
+        "gearType": {
+            "en": "Top",
+            "th": "เสื้อ"
+        },
+        "modType": {
+            "en": "Defense",
+            "th": "ป้องกัน"
+        },
+        "stats": {
+            "en": "When out of combat, gain 1 stack of Safe Haven every 5s. Effect can stack up to 5 times. With every 5 damage received, remove 1 stack of Safe Haven to get 8% shield for 3s.",
+            "th": "เมื่อไม่ได้อยู่ในสถานะต่อสู้ คุณจะได้รับสถานะ Safe Haven 1 ชั้นทุก ๆ 5 วินาที สถานะนี้สามารถสะสมได้สูงสุด 5 ชั้น เมื่อได้รับ ความเสียหาย ทุก ๆ 5 หน่วย จะสูญเสียสถานะ Safe Haven 1 ชั้นเพื่อสร้างโล่ 8% เป็นเวลา 3 วินาที"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo THETA",
+                "th": "ไซโล THETA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/EnduringShield.png"
+    },
+    {
+        "name": {
+            "en": "Head-on Conflict",
+            "th": "ความขัดแย้งแบบเผชิญหน้า"
+        },
+        "gearType": {
+            "en": "Top",
+            "th": "เสื้อ"
+        },
+        "modType": {
+            "en": "Damage Reduction",
+            "th": "ลดความเสียหาย"
+        },
+        "stats": {
+            "en": "Having enemies within 7 meters around you grants a 10% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds",
+            "th": "หากมีศัตรูอยู่ในระยะ 7 เมตรรอบตัวคุณ จะทำให้ความเสียหายที่ได้รับจะลดลง 10% และเมื่อได้รับความเสียหายจากศัตรูในระยะประชิด ความเสียหายที่ได้รับจะลดลงอีก 10% เป็นเวลา 5 วินาที"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo THETA",
+                "th": "ไซโล THETA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Head-onConflict.png"
+    },
+    {
+        "name": {
+            "en": "Critical Rescue",
+            "th": "กู้ภัยวิกฤต"
+        },
+        "gearType": {
+            "en": "Top",
+            "th": "เสื้อ"
+        },
+        "modType": {
+            "en": "Defense",
+            "th": "ป้องกัน"
+        },
+        "stats": {
+            "en": "DMG Reduction 20% and Healing Received + 20% when HP is below 30%.",
+            "th": "ลดความเสียหายที่ได้รับ 20% และจะได้รับการฟื้นฟูพลังชีวิตเพิ่มมากขึ้น 20% เมื่อ พลังชีวิต ต่ำกว่า 30%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo THETA",
+                "th": "ไซโล THETA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/CriticalRescue.png"
+    },
+    {
+        "name": {
+            "en": "Status Immune",
+            "th": "ภูมิคุ้มกันสถานะ"
+        },
+        "gearType": {
+            "en": "Top",
+            "th": "เสื้อ"
+        },
+        "modType": {
+            "en": "Defense",
+            "th": "ป้องกัน"
+        },
+        "stats": {
+            "en": "When HP is lower than 60%, purge all Deviated State (cooldown: 15s)",
+            "th": "เมื่อ พลังชีวิต ต่ำกว่า 60% จะล้างสถานะดีบัพทั้งหมด (คูลดาวน์: 15 วินาที)"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo THETA",
+                "th": "ไซโล THETA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/StatusImmune.png"
+    },
+    {
+        "name": {
+            "en": "Rejuvenating",
+            "th": "คืนความสดชื่น"
+        },
+        "gearType": {
+            "en": "Top",
+            "th": "เสื้อ"
+        },
+        "modType": {
+            "en": "Defense",
+            "th": "ป้องกัน"
+        },
+        "stats": {
+            "en": "When HP is above 60%, a kill recovers 15% lost HP.",
+            "th": "เมื่อ พลังชีวิต สูงกว่า 60% การกำจัดศัตรูจะทำการฟื้นฟูพลังชีวิต 15% ของพลังชีวิตสูงสุด"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo THETA",
+                "th": "ไซโล THETA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Rejuvenating.png"
+    },
+    {
+        "name": {
+            "en": "Crit Amplifier",
+            "th": "ตัวขยายคริติคอล"
+        },
+        "gearType": {
+            "en": "Gloves",
+            "th": "ถุงมือ"
+        },
+        "modType": {
+            "en": "Crit DMG",
+            "th": "ดาเมจคริติคอล"
+        },
+        "stats": {
+            "en": "Crit Rate +10%, Crit DMG +15%.",
+            "th": "อัตราคริติคอล +10% ความเสียหายคริติคอล +15%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo SIGMA",
+                "th": "ไซโล SIGMA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/CritAmplifier.png"
+    },
+    {
+        "name": {
+            "en": "Crit Boost",
+            "th": "บูสคริติคอล"
+        },
+        "gearType": {
+            "en": "Gloves",
+            "th": "ถุงมือ"
+        },
+        "modType": {
+            "en": "Crit DMG",
+            "th": "ดาเมจคริติคอล"
+        },
+        "stats": {
+            "en": "Crit Rate +15%",
+            "th": "อัตราคริติคอล +15%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo SIGMA",
+                "th": "ไซโล SIGMA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/CritBoost.png"
+    },
+    {
+        "name": {
+            "en": "Elemental Overload",
+            "th": "พลังธาตุเกินขีด"
+        },
+        "gearType": {
+            "en": "Gloves",
+            "th": "ถุงมือ"
+        },
+        "modType": {
+            "en": "Elemental DMG",
+            "th": "ดาเมจธาตุ"
+        },
+        "stats": {
+            "en": "Element DMG (Blaze, Frost, Shock, Blast) +18%",
+            "th": "ความเสียหายธาตุ (ไฟ, น้ำแข็ง, ไฟฟ้า, ระเบิด) +18%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo SIGMA",
+                "th": "ไซโล SIGMA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ElementalOverload.png"
+    },
+    {
+        "name": {
+            "en": "Status Enhancement",
+            "th": "เสริมประสิทธิภาพสถานะ"
+        },
+        "gearType": {
+            "en": "Gloves",
+            "th": "ถุงมือ"
+        },
+        "modType": {
+            "en": "Status DMG",
+            "th": "ดาเมจสถานะ"
+        },
+        "stats": {
+            "en": "Status DMG +20.0%",
+            "th": "ความเสียหายจากสถานะ +20%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo SIGMA",
+                "th": "ไซโล SIGMA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/StatusEnhancement.png"
+    },
+    {
+        "name": {
+            "en": "Munitions Amplifier",
+            "th": "ขยายความรุนแรงกระสุน"
+        },
+        "gearType": {
+            "en": "Gloves",
+            "th": "ถุงมือ"
+        },
+        "modType": {
+            "en": "Weapon DMG",
+            "th": "ดาเมจอาวุธ"
+        },
+        "stats": {
+            "en": "Weapon DMG +15.0%",
+            "th": "ความเสียหายจากอาวุธ +15%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo SIGMA",
+                "th": "ไซโล SIGMA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/MunitionsAmplifier.png"
+    },
+    {
+        "name": {
+            "en": "Lifeforce Boost",
+            "th": "เสริมพลังชีวิต"
+        },
+        "gearType": {
+            "en": "Gloves",
+            "th": "ถุงมือ"
+        },
+        "modType": {
+            "en": "all",
+            "th": "ทั้งหมด"
+        },
+        "stats": {
+            "en": "HP +12%",
+            "th": "พลังชีวิต +12%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo SIGMA",
+                "th": "ไซโล SIGMA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/LifeforceBoost.png"
+    },
+    {
+        "name": {
+            "en": "Weakspot DMG",
+            "th": "ความเสียหายต่อจุดอ่อน"
+        },
+        "gearType": {
+            "en": "Gloves",
+            "th": "ถุงมือ"
+        },
+        "modType": {
+            "en": "Weak Spot DMG",
+            "th": "ความเสียหายต่อจุดอ่อน"
+        },
+        "stats": {
+            "en": "Weakspot DMG Boost +25%",
+            "th": "เพิ่มความเสียหายต่อจุดอ่อน +25%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo SIGMA",
+                "th": "ไซโล SIGMA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/WeakspotDMG.png"
+    },
+    {
+        "name": {
+            "en": "Melee Amplifier",
+            "th": "ตัวขยายการโจมตีระยะประชิด"
+        },
+        "gearType": {
+            "en": "Gloves",
+            "th": "ถุงมือ"
+        },
+        "modType": {
+            "en": "Melee DMG",
+            "th": "ดาเมจอาวุธระยะประชิด"
+        },
+        "stats": {
+            "en": "Melee DMG +20%",
+            "th": "ความเสียหายอาวุธระยะประชิด +20%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo SIGMA",
+                "th": "ไซโล SIGMA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/MeleeAmplifier.png"
+    },
+    {
+        "name": {
+            "en": "Deadshot",
+            "th": "แม่นยำร้ายแรง"
+        },
+        "gearType": {
+            "en": "Bottoms",
+            "th": "กางเกง"
+        },
+        "modType": {
+            "en": "Crit DMG",
+            "th": "ดาเมจคริติคอล"
+        },
+        "stats": {
+            "en": "Each Crit Hit by non-melee weapons grants +5% Crit DMG, up to 45%. The effect is removed upon the next reload.",
+            "th": "การโจมตีคริติคอลจากอาวุธที่ไม่ใช่ระยะประชิดจะเพิ่มความเสียหายคริติคอล 5% สูงสุดถึง 45% เอฟเฟกต์จะหายไปเมื่อทำการรีโหลดครั้งถัดไป"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PSI",
+                "th": "ไซโล PSI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Deadshot.png"
+    },
+    {
+        "name": {
+            "en": "Melee Momentum",
+            "th": "พลังโจมตีประชิด"
+        },
+        "gearType": {
+            "en": "Bottoms",
+            "th": "กางเกง"
+        },
+        "modType": {
+            "en": "Melee DMG",
+            "th": "ดาเมจอาวุธระยะประชิด"
+        },
+        "stats": {
+            "en": "Killing with melee attacks restores 30.0% of Max Stamina and grants +20.0% Melee DMG for 8 seconds.",
+            "th": "การฆ่าศัตรูด้วยการโจมตีระยะประชิดจะฟื้นฟูพลังงานสูงสุด 30% และเพิ่มความเสียหายการโจมตีประชิด 20% เป็นเวลา 8 วินาที"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PSI",
+                "th": "ไซโล PSI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/MeleeMomentum.png"
+    },
+    {
+        "name": {
+            "en": "Reload Rampage",
+            "th": "บ้าคลั่งรีโหลด"
+        },
+        "gearType": {
+            "en": "Bottoms",
+            "th": "กางเกง"
+        },
+        "modType": {
+            "en": "Condition",
+            "th": "เงื่อนไข"
+        },
+        "stats": {
+            "en": "Killing 2 enemies refills 2 bullets from inventory (no more than half of the mag), and grants +10.0% Weapon and Status DMG, lasting until the next reload.",
+            "th": "การฆ่าศัตรู 2 ตัวจะเติมกระสุน 2 นัดจากคลัง (ไม่เกินครึ่งของแม็กกาซีน) และเพิ่มความเสียหายอาวุธและสถานะ 10% จนกว่าจะทำการรีโหลดครั้งถัดไป"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PSI",
+                "th": "ไซโล PSI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ReloadRampage.png"
+    },
+    {
+        "name": {
+            "en": "Unstoppable",
+            "th": "บ้าคลั่งรีโหลด"
+        },
+        "gearType": {
+            "en": "Bottoms",
+            "th": "กางเกง"
+        },
+        "modType": {
+            "en": "Weak Spot DMG",
+            "th": "ความเสียหายต่อจุดอ่อน"
+        },
+        "stats": {
+            "en": "Weakspot DMG +10% when a bullet hits a target more than 20m away. For every additional 1 meter away from the target, Weakspot DMG +1% up to 20%.",
+            "th": "ความเสียหายจุดอ่อนเพิ่มขึ้น 10% เมื่อกระสุนถูกยิงไปยังเป้าหมายที่อยู่ห่างออกไปมากกว่า 20 เมตร สำหรับทุก 1 เมตรเพิ่มเติมจากระยะเป้าหมาย ความเสียหายจุดอ่อนจะเพิ่มขึ้น 1% สูงสุดถึง 20%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PSI",
+                "th": "ไซโล PSI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/Unstoppable.png"
+    },
+    {
+        "name": {
+            "en": "Bullet Siphon",
+            "th": "ดูดซับกระสุน"
+        },
+        "gearType": {
+            "en": "Bottoms",
+            "th": "กางเกง"
+        },
+        "modType": {
+            "en": "Weapon DMG",
+            "th": "ดาเมจอาวุธ"
+        },
+        "stats": {
+            "en": "Weapon DMG +5%. Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%.",
+            "th": "ความเสียหายจากอาวุธเพิ่มขึ้น 5% ทุก 5 นัดที่ใช้จากแม็กกาซีนจะเพิ่มความเสียหายจากอาวุธ 4% สูงสุดถึง 20%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PSI",
+                "th": "ไซโล PSI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/BulletSiphon.png"
+    },
+    {
+        "name": {
+            "en": "Status Amplification",
+            "th": "เสริมพลังสถานะ"
+        },
+        "gearType": {
+            "en": "Bottoms",
+            "th": "กางเกง"
+        },
+        "modType": {
+            "en": "Status DMG",
+            "th": "ดาเมจสถานะ"
+        },
+        "stats": {
+            "en": "When the magazine is empty, Status DMG +10% for 12s (up to 3 stacks).",
+            "th": "เมื่อแม็กกาซีนหมด ความเสียหายจากสถานะจะเพิ่มขึ้น 10% เป็นเวลา 12 วินาที (สูงสุด 3 ชั้น)"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PSI",
+                "th": "ไซโล PSI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/StatusAmplification.png"
+    },
+    {
+        "name": {
+            "en": "Precision Charge",
+            "th": "การชาร์จความแม่นยำ"
+        },
+        "gearType": {
+            "en": "Bottoms",
+            "th": "กางเกง"
+        },
+        "modType": {
+            "en": "Elemental DMG",
+            "th": "ดาเมจธาตุ"
+        },
+        "stats": {
+            "en": "For every 10% Weakspot hit rate of the previous magazine, Elemental DMG +4%, up to 24%, lasting for 10s. Reloading resets the calculation.",
+            "th": "สำหรับทุก 10% อัตราการโจมตีจุดอ่อนของแม็กกาซีนก่อนหน้า ความเสียหายธาตุจะเพิ่มขึ้น 4% สูงสุดถึง 24% เป็นเวลา 10 วินาที การรีโหลดจะรีเซ็ตการคำนวณ"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PSI",
+                "th": "ไซโล PSI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/PrecisionCharge.png"
+    },
+    {
+        "name": {
+            "en": "Three Strikes",
+            "th": "สามหมัดเด็ด"
+        },
+        "gearType": {
+            "en": "Bottoms",
+            "th": "กางเกง"
+        },
+        "modType": {
+            "en": "Weak Spot DMG",
+            "th": "ความเสียหายต่อจุดอ่อน"
+        },
+        "stats": {
+            "en": "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +50%",
+            "th": "สำหรับการโจมตี 3 ครั้งแรกหลังจากการรีโหลด (ไม่เกิน 50% ของความจุแม็กกาซีน) ความเสียหายจุดอ่อนจะเพิ่มขึ้น 50%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PSI",
+                "th": "ไซโล PSI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ThreeStrikes.png"
+    },
+    {
+        "name": {
+            "en": "Covered Advance",
+            "th": "การรุกอย่างมีการป้องกัน"
+        },
+        "gearType": {
+            "en": "Shoes",
+            "th": "รองเท้า"
+        },
+        "modType": {
+            "en": "Condition",
+            "th": "เงื่อนไข"
+        },
+        "stats": {
+            "en": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30 seconds. The effect resets when the duration ends.",
+            "th": "การรับความเสียหายเป็นศูนย์ภายใน 4 วินาที จะเพิ่มความเสียหายการโจมตีประชิด, อาวุธ และสถานะ 20% เป็นเวลา 30 วินาที เอฟเฟกต์จะรีเซ็ตเมื่อเวลาหมด"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PHI",
+                "th": "ไซโล PHI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/CoveredAdvance.png"
+    },
+    {
+        "name": {
+            "en": "Slow And Steady",
+            "th": "ช้าแต่มั่นคง"
+        },
+        "gearType": {
+            "en": "Shoes",
+            "th": "รองเท้า"
+        },
+        "modType": {
+            "en": "Condition",
+            "th": "เงื่อนไข"
+        },
+        "stats": {
+            "en": "+10% Melee, Weapon, Status DMG. When HP is above 90%, DMG +10%",
+            "th": "เพิ่มความเสียหายการโจมตีประชิด, อาวุธ, และสถานะ 10% เมื่อ HP สูงกว่า 90% จะเพิ่มความเสียหายอีก 10%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PHI",
+                "th": "ไซโล PHI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/SlowAndSteady.png"
+    },
+    {
+        "name": {
+            "en": "Secluded Strike",
+            "th": "การโจมตีในที่ห่างไกล"
+        },
+        "gearType": {
+            "en": "Shoes",
+            "th": "รองเท้า"
+        },
+        "modType": {
+            "en": "Condition",
+            "th": "เงื่อนไข"
+        },
+        "stats": {
+            "en": "Having no enemies within 7 meters around you grants +15% Weapon and Status DMG.",
+            "th": "เมื่อไม่มีศัตรูในระยะ 7 เมตรรอบตัว จะเพิ่มความเสียหายอาวุธและสถานะ 15%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PHI",
+                "th": "ไซโล PHI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/SecludedStrike.png"
+    },
+    {
+        "name": {
+            "en": "Ruthless Reaper Precision",
+            "th": "ความแม่นยำแห่งการเก็บเกี่ยวไร้ความปรานี"
+        },
+        "gearType": {
+            "en": "Shoes",
+            "th": "รองเท้า"
+        },
+        "modType": {
+            "en": "Condition",
+            "th": "เงื่อนไข"
+        },
+        "stats": {
+            "en": "After accumulating 2 kill(s), refill the 100% of your magazine from your reserves.",
+            "th": "หลังจากสะสมการฆ่า 2 ตัว จะเติมกระสุน 100% จากกระเป๋า"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PHI",
+                "th": "ไซโล PHI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/RuthlessReaperPrecision.png"
+    },
+    {
+        "name": {
+            "en": "Ferocious Charge",
+            "th": "การชาร์จอย่างดุเดือด"
+        },
+        "gearType": {
+            "en": "Shoes",
+            "th": "รองเท้า"
+        },
+        "modType": {
+            "en": "Condition",
+            "th": "เงื่อนไข"
+        },
+        "stats": {
+            "en": "Killing enemies within 10 meters grants Melee, Weapon DMG, Status DMG +20% for 8s.",
+            "th": "การฆ่าศัตรูภายในระยะ 10 เมตร จะเพิ่มความเสียหายการโจมตีประชิด, อาวุธ, และสถานะ 20% เป็นเวลา 8 วินาที"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PHI",
+                "th": "ไซโล PHI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/FerociousCharge.png"
+    },
+    {
+        "name": {
+            "en": "Rush Hour",
+            "th": "ชั่วโมงเร่งด่วน"
+        },
+        "gearType": {
+            "en": "Shoes",
+            "th": "รองเท้า"
+        },
+        "modType": {
+            "en": "Condition",
+            "th": "เงื่อนไข"
+        },
+        "stats": {
+            "en": "Every 10% HP loss grants +4% Melee, Weapon, and Status DMG.",
+            "th": "ทุกการสูญเสีย HP 10% จะเพิ่มความเสียหายการโจมตีประชิด, อาวุธ, และสถานะ 4%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo PHI",
+                "th": "ไซโล PHI"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/RushHour.png"
     }
 ]

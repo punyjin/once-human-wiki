@@ -1,0 +1,35 @@
+{
+    "modType": {
+        "burn": "fa-fire",
+        "fortex": "fa-snowflake",
+        "surge": "fa-bolt",
+        "warfare": "fa-shield-alt",
+        "unstable_bomber": "fa-bomb",
+        "bullEye": "fa-bullseye",
+        "fastgunner": "fa-bolt",
+        "bounce": "fa-arrows-alt",
+        "shrapnel": "fa-cogs",
+        "HP": "fa-heart",
+        "critrate": "fa-star",
+        "critdmg": "fa-star",
+        "statusdmg": "fa-star",
+        "defense": "fa-shield",
+        "firerate": "fa-burn",
+        "condition": "fa-hourglass",
+        "weapondmg": "fa-wand-sparkles",
+        "elementdmg": "fa-star",
+        "magazinecapacity": "fa-expand-alt",
+        "dmgreduce": "fa-shield-alt",
+        "weakspotdmg": "fa-bullseye",
+        "meleedmg": "fa-hand-rock"
+    },
+    "gearType": {
+        "Weapon": "fa-crosshairs",
+        "Helmet": "fa-hat-cowboy",
+        "Mask": "fa-mask",
+        "Top": "fa-tshirt",
+        "Bottoms": "fa-tent",
+        "Gloves": "fa-hand-fist",
+        "Shoes": "fa-socks"
+    }
+}

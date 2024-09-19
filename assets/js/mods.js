@@ -1,15 +1,18 @@
 // Path to the JSON file
 const jsonDataUrl = 'assets/json_data/mods.json';
 const mainDataUrl = 'assets/json_data/filter.json';
-
+const iconDataUrl = 'assets/json_data/mod_icon.json';
 // Global variable for mods data
 let mods = [];
+let icons = {};
 
-// Fetch JSON data and initialize filter
+fetch(iconDataUrl).then(response => response.json())
+    .then(data => {icons = data;}).catch(error => console.error('Error loading icon data:', error));
+
 fetch(jsonDataUrl)
     .then(response => response.json())
     .then(data => {
-        mods = data; // Store mods data globally
+        mods = data; 
         populateTable(data, 'th'); // Load Thai Language by default
 
         // Load filter options from main.json
@@ -43,11 +46,35 @@ fetch(jsonDataUrl)
     })
     .catch(error => console.error('Error loading JSON:', error));
 
+const modTypeMapping = {
+    "Burn": "burn",
+    "Frost Vortex": "fortex",
+    "Power Surge": "surge",
+    "Unstable Bomber": "unstable_bomber",
+    "Fortress Warfare": "warfare",
+    "The Bull's Eye": "bullEye",
+    "Fast Gunner": "fastgunner",
+    "Bounce": "bounce",
+    "Shrapnel": "shrapnel",
+    "HP": "HP",
+    "Crit Rate": "critrate",
+    "Crit DMG": "critdmg",
+    "Status DMG": "statusdmg",
+    "Defense": "defense",
+    "Fire Rate": "firerate",
+    "Condition": "condition",
+    "Weapon DMG": "weapondmg",
+    "Elemental DMG": "elementdmg",
+    "Magazine Capacity": "magazinecapacity",
+    "Damage Reduction": "dmgreduce",
+    "Weak Spot DMG": "weakspotdmg",
+    "Melee DMG": "meleedmg"
+};
 // ฟังก์ชันสำหรับแปลง gearType ระหว่างภาษาไทยและอังกฤษ
 function translateGearType(gearType) {
     const gearTypeTranslations = {
         "Weapon": "อาวุธ",
-        "Helmet": "หมวกนิรภัย",
+        "Helmet": "หมวก",
         "Mask": "หน้ากาก",
         "Top": "เสื้อ",
         "Bottom": "กางเกง",
@@ -60,7 +87,7 @@ function translateGearType(gearType) {
 function translateModType(modType) {
     const filterTranslations = {
         "all": "ทั้งหมด",
-        "burn": "การเผาไหม้",
+        "burn": "เผาไหม้",
         "fortex": "พายุวนแห่งน้ำแข็ง",
         "surge": "พลังงานสายฟ้า",
         "unstableBomber": "การระเบิดที่ไม่เสถียร",
@@ -85,7 +112,13 @@ function translateModType(modType) {
     };
     return filterTranslations[modType] || Object.keys(filterTranslations).find(key => filterTranslations[key] === modType);
 }
-
+function normalizeModType(modType) {
+    // Normalize mod type string to match icon keys
+    return modType
+        .toLowerCase()
+        .replace(/ /g, '_')  // Replace spaces with underscores
+        .replace(/-/g, '_'); // Replace hyphens with underscores if needed
+}
 // Function to apply search and filters
 function applyFilters() {
     const searchTerm = document.getElementById('search-input')?.value.toLowerCase() || '';
@@ -119,18 +152,13 @@ function applyFilters() {
     });
     populateTable(filteredMods, 'th'); 
 }
-
-
-
-
-
 function populateTable(mods, lang) {
     const tableBody = document.querySelector('#mods-table tbody');
     if (!tableBody) {
         console.error('Table body element not found.');
         return;
     }
-    
+
     tableBody.innerHTML = ''; // Clear table body
 
     mods.forEach(mod => {
@@ -147,7 +175,7 @@ function populateTable(mods, lang) {
         imageCell.appendChild(imgElement);
         row.appendChild(imageCell);
 
-        // Name column
+        // Name column without icon
         const nameCell = document.createElement('td');
         nameCell.textContent = `${mod.name.th} (${mod.name.en})`;
         row.appendChild(nameCell);
@@ -158,37 +186,43 @@ function populateTable(mods, lang) {
         statsCell.classList.add('stats');
         row.appendChild(statsCell);
 
-        // Gear Type column
+        // Gear Type column with icon
         const gearTypeCell = document.createElement('td');
-        gearTypeCell.textContent = mod.gearType[lang];
+        const gearTypeIcon = icons.gearType[mod.gearType.en] || 'fa-question'; // Default to fa-question if icon not found
+        const gearIconElement = document.createElement('i');
+        gearIconElement.className = `fa ${gearTypeIcon}`;
+        gearTypeCell.appendChild(gearIconElement);
+        gearTypeCell.innerHTML += ` ${mod.gearType[lang]}`;
         gearTypeCell.classList.add('gear-type');
         row.appendChild(gearTypeCell);
 
-        // Mod Type column
+        // Mod Type column with icon
         const modTypeCell = document.createElement('td');
-        modTypeCell.textContent = `${mod.modType.th} (${mod.modType.en})`;
+        const modTypeKey = modTypeMapping[mod.modType.en] || 'unknown'; // Use 'unknown' if modType is not mapped
+        const modTypeIcon = icons.modType[modTypeKey] || 'fa-question'; // Default to fa-question if icon not found
+        const modIconElement = document.createElement('i');
+        modIconElement.className = `fa ${modTypeIcon}`;
+        modTypeCell.appendChild(modIconElement);
+        modTypeCell.innerHTML += ` ${mod.modType[lang]} (${mod.modType.en})`;
         modTypeCell.classList.add('mod-type');
         row.appendChild(modTypeCell);
-
+        
         // Location column
         const locationCell = document.createElement('td');
         locationCell.classList.add('location');
         mod.location.forEach(loc => {
             const locElement = document.createElement('div');
-            
             const linkElement = document.createElement('a');
-            // linkElement.href = `#${loc['en']}`; 
             linkElement.textContent = `• ${loc['en']}`;
-            
             locElement.appendChild(linkElement);
             locationCell.appendChild(locElement);
         });
         row.appendChild(locationCell);
-
         // Append row to the table body
         tableBody.appendChild(row);
     });
 }
+
 
 function loadFilterOptions(lang1, lang2) {
     fetch(mainDataUrl)
@@ -205,12 +239,12 @@ function loadFilterOptions(lang1, lang2) {
             // Add "All" option first
             const allOption = document.createElement('option');
             allOption.value = 'all';
-            allOption.textContent = `- ${filters.all[lang1]} (${filters.all[lang2]}) -`;
+            allOption.textContent = `- ${filters.all[lang1]} Mod (ม็อด${filters.all[lang2]}) -`;
             filterSelect.appendChild(allOption);
 
             const allGearTypeOption = document.createElement('option');
             allGearTypeOption.value = 'all';
-            allGearTypeOption.textContent = `- ${filters.all[lang1]} (${filters.all[lang2]}) -`;
+            allGearTypeOption.textContent = `- ${filters.all[lang1]} Gear (อุปกรณ์${filters.all[lang2]}) -`;
             gearTypeFilterSelect.appendChild(allGearTypeOption);
 
             // Add modType filter options
