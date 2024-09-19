@@ -17,22 +17,45 @@ fetch(jsonDataUrl)
 
         // Add event listeners for search and filter
         const searchInput = document.getElementById('search-input');
-        const filterSelect = document.getElementById('filter-select');
-        
+        const filterSelect = document.getElementById('filter-select'); // modType select
+        const gearTypeSelect = document.getElementById('gear-type-filter'); // gearType select
+
+        // Add event listener to search input
         if (searchInput) {
             searchInput.addEventListener('input', () => applyFilters());
         } else {
             console.error('Search input element not found.');
         }
-        
+
+        // Add event listener to filter select (modType)
         if (filterSelect) {
             filterSelect.addEventListener('change', () => applyFilters());
         } else {
             console.error('Filter select element not found.');
         }
+
+        // Add event listener to gear type select (gearType)
+        if (gearTypeSelect) {
+            gearTypeSelect.addEventListener('change', () => applyFilters());
+        } else {
+            console.error('Gear type filter select element not found.');
+        }
     })
     .catch(error => console.error('Error loading JSON:', error));
 
+// ฟังก์ชันสำหรับแปลง gearType ระหว่างภาษาไทยและอังกฤษ
+function translateGearType(gearType) {
+    const gearTypeTranslations = {
+        "Weapon": "อาวุธ",
+        "Helmet": "หมวกนิรภัย",
+        "Mask": "หน้ากาก",
+        "Top": "เสื้อ",
+        "Bottom": "กางเกง",
+        "Gloves": "ถุงมือ",
+        "Shoes": "รองเท้า"
+    };
+    return gearTypeTranslations[gearType] || Object.keys(gearTypeTranslations).find(key => gearTypeTranslations[key] === gearType);
+}
 // ฟังก์ชันสำหรับแปลง modType ระหว่างภาษาไทยและอังกฤษ
 function translateModType(modType) {
     const filterTranslations = {
@@ -46,7 +69,7 @@ function translateModType(modType) {
         "fastgunner": "พลปืนเร็ว",
         "bounce": "การกระเด้ง",
         "shrapnel": "เศษกระสุน",
-        "HP": "HP",
+        "HP": "พลังชีวิต",
         "critrate": "อัตราคริติคอล",
         "critdmg": "ดาเมจคริติคอล",
         "statusdmg": "ดาเมจสถานะ",
@@ -67,6 +90,7 @@ function translateModType(modType) {
 function applyFilters() {
     const searchTerm = document.getElementById('search-input')?.value.toLowerCase() || '';
     const filterValue = document.getElementById('filter-select')?.value || 'all';
+    const gearTypeValue = document.getElementById('gear-type-filter')?.value || 'all';
 
     if (!mods) {
         console.error('Mods data is not loaded.');
@@ -74,21 +98,32 @@ function applyFilters() {
     }
 
     const translatedFilterValue = translateModType(filterValue);
+    const translatedGearTypeValue = translateGearType(gearTypeValue);
 
     const filteredMods = mods.filter(mod => {
         const matchesSearch = mod.name.th.toLowerCase().includes(searchTerm) || mod.name.en.toLowerCase().includes(searchTerm);
+        
         const matchesFilter = filterValue === 'all' ||
-            mod.modType.en.toLowerCase() === filterValue.toLowerCase() ||  // ตรวจสอบ modType ภาษาอังกฤษ
-            mod.modType.th.toLowerCase() === filterValue.toLowerCase() ||  // ตรวจสอบ modType ภาษาไทย
-            mod.modType.en.toLowerCase() === translatedFilterValue.toLowerCase() ||  // ตรวจสอบ modType ภาษาอังกฤษที่แปลแล้ว
-            mod.modType.th.toLowerCase() === translatedFilterValue.toLowerCase();    // ตรวจสอบ modType ภาษาไทยที่แปลแล้ว
-        return matchesSearch && matchesFilter;
+            mod.modType.en.toLowerCase() === filterValue.toLowerCase() ||
+            mod.modType.th.toLowerCase() === filterValue.toLowerCase() ||
+            mod.modType.en.toLowerCase() === translatedFilterValue.toLowerCase() ||
+            mod.modType.th.toLowerCase() === translatedFilterValue.toLowerCase();
+        
+        const matchesGearType = gearTypeValue === 'all' ||
+            mod.gearType.en.toLowerCase() === gearTypeValue.toLowerCase() ||
+            mod.gearType.th.toLowerCase() === gearTypeValue.toLowerCase() ||
+            mod.gearType.en.toLowerCase() === translatedGearTypeValue.toLowerCase() ||
+            mod.gearType.th.toLowerCase() === translatedGearTypeValue.toLowerCase();
+        
+        return matchesSearch && matchesFilter && matchesGearType;
     });
-
     populateTable(filteredMods, 'th'); 
 }
 
-// Function to populate table based on the data
+
+
+
+
 function populateTable(mods, lang) {
     const tableBody = document.querySelector('#mods-table tbody');
     if (!tableBody) {
@@ -155,33 +190,47 @@ function populateTable(mods, lang) {
     });
 }
 
-// Function to load filter options in both languages
 function loadFilterOptions(lang1, lang2) {
     fetch(mainDataUrl)
         .then(response => response.json())
         .then(data => {
             const filters = data.filters;
             const filterSelect = document.getElementById('filter-select');
-            
+            const gearTypeFilterSelect = document.getElementById('gear-type-filter');
+
             // Clear existing options
             filterSelect.innerHTML = '';
+            gearTypeFilterSelect.innerHTML = '';
 
             // Add "All" option first
             const allOption = document.createElement('option');
             allOption.value = 'all';
-            allOption.textContent = `${filters.all[lang1]} (${filters.all[lang2]})`;
+            allOption.textContent = `- ${filters.all[lang1]} (${filters.all[lang2]}) -`;
             filterSelect.appendChild(allOption);
 
-            // Add other filter options
+            const allGearTypeOption = document.createElement('option');
+            allGearTypeOption.value = 'all';
+            allGearTypeOption.textContent = `- ${filters.all[lang1]} (${filters.all[lang2]}) -`;
+            gearTypeFilterSelect.appendChild(allGearTypeOption);
+
+            // Add modType filter options
             for (const [key, value] of Object.entries(filters)) {
-                if (key !== 'all') {
+                if (key !== 'all' && key !== 'geartypes') {
                     const option = document.createElement('option');
                     option.value = key;
                     option.textContent = `${value[lang1]} (${value[lang2]})`;
                     filterSelect.appendChild(option);
                 }
             }
-            
+
+            // Add gearType filter options
+            const gearTypes = filters.geartypes;
+            for (const [key, value] of Object.entries(gearTypes)) {
+                const option = document.createElement('option');
+                option.value = key;
+                option.textContent = `${value[lang1]} (${value[lang2]})`;
+                gearTypeFilterSelect.appendChild(option);
+            }
         })
         .catch(error => console.error('Error loading filter options:', error));
 }

@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "fastgunner": { "en": "Fast Gunner", "th": "พลปืนเร็ว" },
             "bounce": { "en": "Bounce", "th": "การกระเด้ง" },
             "shrapnel": { "en": "Shrapnel", "th": "เศษกระสุน" },
-            "HP": { "en": "HP", "th": "HP" },
+            "HP": { "en": "HP", "th": "พลังชีวิต" },
             "critrate": { "en": "Crit Rate", "th": "อัตราคริติคอล" },
             "critdmg": { "en": "Crit DMG", "th": "ดาเมจคริติคอล" },
             "statusdmg": { "en": "Status DMG", "th": "ดาเมจสถานะ" },

@@ -42,7 +42,7 @@
         },
         "HP": {
             "en": "HP",
-            "th": "HP"
+            "th": "พลังชีวิต"
         },
         "critrate": {
             "en": "Crit Rate",
@@ -91,6 +91,36 @@
         "meleedmg": {
             "en": "Melee DMG",
             "th": "ดาเมจอาวุธระยะประชิด"
+        },
+        "geartypes": {
+            "Weapon": {
+                "en": "Weapon",
+                "th": "อาวุธ"
+            },
+            "Helmet": {
+                "en": "Helmet",
+                "th": "หมวกนิรภัย"
+            },
+            "Mask": {
+                "en": "Mask",
+                "th": "หน้ากาก"
+            },
+            "Top": {
+                "en": "Top",
+                "th": "เสื้อ"
+            },
+            "Bottom": {
+                "en": "Bottom",
+                "th": "กางเกง"
+            },
+            "Gloves": {
+                "en": "Gloves",
+                "th": "ถุงมือ"
+            },
+            "Shoes": {
+                "en": "Shoes",
+                "th": "รองเท้า"
+            }
         }
     }
 }

@@ -1442,5 +1442,104 @@
             }
         ],
         "imageUrl": "assets/imgs/mods/ShockRampage.png"
+    },
+    {
+        "name": {
+            "en": "Fateful Strike",
+            "th": "การโจมตีแห่งโชคชะตา"
+        },
+        "gearType": {
+            "en": "Helmet",
+            "th": "หมวก"
+        },
+        "modType": {
+            "en": "Crit Rate",
+            "th": "อัตราคริติคอล"
+        },
+        "stats": {
+            "en": "Cannot deal Weakspot DMG. Crit rate +10% and Crit DMG +30%",
+            "th": "ไม่สามารถสร้างความเสียหายจุดอ่อนได้ อัตราคริติคอล +10% และความเสียหายคริติคอล +30%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo ALPHA",
+                "th": "ไซโล ALPHA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/FatefulStrike.png"
+    },
+    {
+        "name": {
+            "en": "Deviation Expert",
+            "th": "ผู้เชี่ยวชาญด้านการเบี่ยงเบน"
+        },
+        "gearType": {
+            "en": "Helmet",
+            "th": "หมวก"
+        },
+        "modType": {
+            "en": "Status DMG",
+            "th": "ดาเมจสถานะ"
+        },
+        "stats": {
+            "en": "Range -25%, Fire Rate +10%, Status DMG +20%",
+            "th": "ระยะการยิง -25% อัตราการยิง +10% ความเสียหายสถานะ +20%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo ALPHA",
+                "th": "ไซโล ALPHA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/DeviationExpert.png"
+    },
+    {
+        "name": {
+            "en": "Elemental Havoc",
+            "th": "ความหายนะแห่งธาตุ"
+        },
+        "gearType": {
+            "en": "Helmet",
+            "th": "หมวก"
+        },
+        "modType": {
+            "en": "Elemental DMG",
+            "th": "ดาเมจธาตุ"
+        },
+        "stats": {
+            "en": "Elemental DMG +10%. When HP is above 90%, 10% additionally.",
+            "th": "ความเสียหายธาตุเพิ่มขึ้น +10% และเมื่อ HP สูงกว่า 90% จะได้รับความเสียหายเพิ่มอีก 10%"
+        },
+        "location": [
+            {
+                "en": "Gear Crates",
+                "th": "กล่องอุปกรณ์"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            },
+            {
+                "en": "Silo ALPHA",
+                "th": "ไซโล ALPHA"
+            }
+        ],
+        "imageUrl": "assets/imgs/mods/ElementalHavoc.png"
     }
 ]
