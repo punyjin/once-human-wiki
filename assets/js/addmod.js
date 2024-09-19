@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Shoes": { "en": "Shoes", "th": "รองเท้า" },
         "Gear": { "en": "Gear", "th": "อุปกรณ์" }
     };
-
+    
     const modTypes = {
         "filters": {
             "burn": { "en": "Burn", "th": "การเผาไหม้" },
@@ -62,9 +62,41 @@ document.addEventListener('DOMContentLoaded', () => {
         { en: "Silo PHI", th: "ไซโล PHI" }
     ];
 
+    const gearTypeSelect = document.getElementById('gearType');
+    const modTypeSelect = document.getElementById('modType');
     const locationContainer = document.getElementById('location');
 
-    // Generate checkboxes dynamically
+    // Default option for Gear Type
+    const defaultGearOption = document.createElement('option');
+    defaultGearOption.value = ''; // ไม่มีค่า
+    defaultGearOption.text = '- None (ยังไม่ได้เลือก) -';
+    defaultGearOption.selected = true; // ทำให้เป็นค่าเริ่มต้น
+    gearTypeSelect.add(defaultGearOption);
+
+    // Populate gearType options
+    for (const key in gearTypes) {
+        const option = document.createElement('option');
+        option.value = key;
+        option.text = `${gearTypes[key].en} (${gearTypes[key].th})`;
+        gearTypeSelect.add(option);
+    }
+
+    // Default option for Mod Type
+    const defaultModOption = document.createElement('option');
+    defaultModOption.value = ''; // ไม่มีค่า
+    defaultModOption.text = '- None (ยังไม่ได้เลือก) -';
+    defaultModOption.selected = true; // ทำให้เป็นค่าเริ่มต้น
+    modTypeSelect.add(defaultModOption);
+
+    // Populate modType options
+    for (const key in modTypes.filters) {
+        const option = document.createElement('option');
+        option.value = key;
+        option.text = `${modTypes.filters[key].en} (${modTypes.filters[key].th})`;
+        modTypeSelect.add(option);
+    }
+
+    // Generate checkboxes dynamically for locations
     locations.forEach(loc => {
         const label = document.createElement('label');
         const checkbox = document.createElement('input');
@@ -185,23 +217,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert('No data to download!');
             }
         });
-    }
-
-    // Populate gearType options
-    const gearTypeSelect = document.getElementById('gearType');
-    for (const key in gearTypes) {
-        const option = document.createElement('option');
-        option.value = key;
-        option.text = `${gearTypes[key].en} (${gearTypes[key].th})`;
-        gearTypeSelect.add(option);
-    }
-
-    // Populate modType options
-    const modTypeSelect = document.getElementById('modType');
-    for (const key in modTypes.filters) {
-        const option = document.createElement('option');
-        option.value = key;
-        option.text = `${modTypes.filters[key].en} (${modTypes.filters[key].th})`;
-        modTypeSelect.add(option);
     }
 });
