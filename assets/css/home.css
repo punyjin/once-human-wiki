@@ -54,7 +54,13 @@
     color: #e0e0e0;
 }
 body {
-    background-color: #434343; /* เปลี่ยนเป็นสีที่คุณต้องการ */
+    background-color: #434343; 
+    background-image: url("/assets/imgs/background/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
 }
 
 .navbar-nav .nav-link:hover {
