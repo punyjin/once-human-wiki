@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Items - Once Human Wiki</title>
+    <title>หน้าแรก - Once Human Wiki</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/onload.js"></script>
+    
 </head>
 <body>
-    <div id="navbar-placeholder"></div>
+    <header id="navbar-placeholder"></header>
+    <div>Q3JlYXRlIEJ5IEthemVub05la28gJiB4b3JiaXQyNTYgWW91IGFyZSBBd2Vzb21lIFRvIEZpbmQgVGhpcyBNZXNzYWdlIEpvaW4gTWUgIWh0dHBzOi8vZGlzY29yZC5nZy9qZVd2N2RjVkd1</div>
     <!-- Main Content -->
     <section class="py-5 mt-5">
         <div class="container my-4">
@@ -53,35 +55,22 @@
                             </div>
                         </div>
                     </div>
-    
                     <!-- Update Logs Section -->
                     <div class="card mb-3 changelog animated-section">
                         <div class="card-header">
-                            <i class="fa fa-fw fa-newspaper"></i>&nbsp;Update Logs
+                            <i class="fa fa-fw fa-newspaper"></i>&nbsp;Game Update Logs
                         </div>
                         <div class="card-body p-0">
-                            <table class="table">
+                            <table class="table" id="news-table">
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                            <label class="badge bg-success text-light">Update</label>
-                                            <a href="#" target="_blank">[18/09/2024] สร้างเว็บไซต์ Once Human Wiki</a>
-                                        </td>
-                                        <td class="text-end text-danger">*</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <label class="badge bg-success text-light">Update</label>
-                                            <a href="#" target="_blank">[18/09/2024] ออกแบบระบบ Mods List</a>
-                                        </td>
-                                        <td class="text-end text-danger">*</td>
-                                    </tr>
+                                    
                                 </tbody>
                             </table>
                         </div>
                     </div>
+                    <script src="assets/js/loaddata.js"></script>
                 </div>
-    
+                
                 <!-- Join Discord Section -->
                 <div class="col-lg-4">
                     <div class="card mb-3 discord-section animated-section">
@@ -92,7 +81,7 @@
                             <div class="alert alert-warning" style='background-color: #FF6060; color: white; border-radius: 0;'>
                                 <i class="fa fa-tag" aria-hidden="true"></i> เข้าร่วมเซิร์ฟเวอร์ Discord ของเราเพื่อรับการอัปเดตล่าสุด เข้าร่วมการสนทนา และอื่นๆ อีกมากมาย!
                             </div>
-                            <a href="https://discord.gg/hmCWt8HUBe" target="_blank" class="btn btn-custom btn-block">
+                            <a href="https://discord.gg/jeWv7dcVGu" target="_blank" class="btn btn-custom btn-block">
                                 <i class="fa-brands fa-discord"></i> เข้าร่วม ดิสคอร์ด
                             </a>
                         </div>
@@ -101,13 +90,7 @@
             </div>
         </div>
     </section>
-    <br><br>
-    <footer class="footer">
-        <div class="contx" style="padding:8px; color:#FFF; text-align:center;">
-            <small style="font-size:14px;">
-                Design & System By <a href="https://discord.gg/Hnx4HgrUaU" target="_blank">KazenoNeko Studio</a>
-            </small>
-        </div>
+    <footer class="footer" id="footer-placeholder">
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

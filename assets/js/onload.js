@@ -1,12 +1,12 @@
 function loadNavbar() {
+    const basePath = window.location.origin;
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'navbar.html', true);
+    xhr.open('GET', `${basePath}/navbar.html`, true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             document.getElementById('navbar-placeholder').innerHTML = xhr.responseText;
-            // เพิ่มการตรวจสอบการเลื่อนหน้า
             window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) { // เปลี่ยน 50 เป็นความสูงที่คุณต้องการ
+                if (window.scrollY > 50) {
                     document.querySelector('.navbar').classList.add('navbar-scrolled');
                 } else {
                     document.querySelector('.navbar').classList.remove('navbar-scrolled');
@@ -17,4 +17,28 @@ function loadNavbar() {
     xhr.send();
 }
 
-window.onload = loadNavbar;
+function loadfooter() {
+    const basePath = window.location.origin;
+    const lfxhr = new XMLHttpRequest();
+    lfxhr.open('GET', `${basePath}/footer.html`, true);
+    lfxhr.onreadystatechange = function () {
+        if (lfxhr.readyState === 4 && lfxhr.status === 200) {
+            document.getElementById('footer-placeholder').innerHTML = lfxhr.responseText;
+        }
+    };
+    lfxhr.send();
+}
+
+window.onload = function() {
+    let path = window.location.pathname;
+    let build = path.endsWith('build.html') || path.endsWith('ondevelopment');
+    let map = path.endsWith('map.html');
+    let addmod = path.endsWith('add_mod.html');
+
+    if (build || map || addmod) {
+        loadNavbar();
+    } else {
+        loadNavbar();
+        loadfooter();
+    }
+};

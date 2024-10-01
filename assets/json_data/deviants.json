@@ -1,0 +1,37 @@
+[
+    {
+        "name": {
+            "en": "Butterfly’s Emissary",
+            "th": "ทูตผีเสื้อ"
+        },
+        "skills": {
+            "en": "Triggering Burn has a 25% chance to grant +1 Burn stacks",
+            "th": "เมื่อเรียกใช้สถานะ Burn มีโอกาส 25% ที่จะเพิ่มการทับซ้อนของสถานะ Burn +1 "
+        },
+        "location": [
+            {
+                "server": "PVE & PVP",
+                "details": "Can be obtained during the tutorial",
+                "en": "Weapon Crates",
+                "th": "กล่องอาวุธ"
+            },
+            {
+                "en": "Shadow Hound",
+                "th": "เงาพันธุ์หมา"
+            },
+            {
+                "en": "Ravenous Hunter",
+                "th": "นักล่ากระหาย"
+            },
+            {
+                "en": "Forsaken Giant",
+                "th": "ยักษ์ที่ถูกทอดทิ้ง"
+            },
+            {
+                "en": "LEA Lab",
+                "th": "ห้องทดลอง LEA"
+            }
+        ],
+        "imageUrl": "assets/imgs/deviant/cat.png"
+    }
+]
